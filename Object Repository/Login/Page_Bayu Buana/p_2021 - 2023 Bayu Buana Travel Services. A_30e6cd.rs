@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_2021 - 2023 Bayu Buana Travel Services. A_30e6cd</name>
+   <tag></tag>
+   <elementGuidId>dda25eba-bf29-4404-b95b-4b77f42c260e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.card-form-footer.position-absolute.pb-4 > p</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div[2]/div[3]/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>e4f1fa83-771d-4246-a44f-8e72cbd33e73</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>© 2021 - 2023 Bayu Buana Travel Services. All Rights Reserved.</value>
+      <webElementGuid>dbe91e0d-9e31-4158-aeb3-51db872f1d2d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;auth-page&quot;]/div[@class=&quot;auth-wrapper&quot;]/div[@class=&quot;card-form&quot;]/div[@class=&quot;card-form-footer position-absolute pb-4&quot;]/p[1]</value>
+      <webElementGuid>eca0ebca-88ee-407a-b965-bf95974d2a23</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[2]/div[3]/p</value>
+      <webElementGuid>deea9def-3a67-4c13-9335-0e8fbf948b3a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SIGN IN'])[1]/following::p[1]</value>
+      <webElementGuid>21307a36-f8cf-4b5f-b3b8-c81e1b1f8b96</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remember Me'])[1]/following::p[2]</value>
+      <webElementGuid>1b916721-69d4-4739-90b3-372f7b1e1031</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='©']/parent::*</value>
+      <webElementGuid>2f1b2b92-632f-400b-9095-9ed3e88fe4e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/p</value>
+      <webElementGuid>b2a08418-336c-4b0f-a8c6-ac141c49fce4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = '© 2021 - 2023 Bayu Buana Travel Services. All Rights Reserved.' or . = '© 2021 - 2023 Bayu Buana Travel Services. All Rights Reserved.')]</value>
+      <webElementGuid>0653eede-6c18-464b-906b-b585d699f208</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

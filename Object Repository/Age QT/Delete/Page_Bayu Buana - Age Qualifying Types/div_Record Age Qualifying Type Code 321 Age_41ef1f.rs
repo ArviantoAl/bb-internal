@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Record Age Qualifying Type Code 321 Age_41ef1f</name>
+   <tag></tag>
+   <elementGuidId>2d633d66-3858-48a9-8d93-f7851dc6be28</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.Snackbar_snackbar__text__1Hx2a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[3]/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>0c8aa5c9-eb8c-44c0-a0e1-1e44c93ab1cc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Snackbar_snackbar__text__1Hx2a</value>
+      <webElementGuid>6d8eb82e-fc6f-4993-8844-a5440eb2e8a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Record 'Age Qualifying Type Code: 321 Age Qualifying Type Name: Age Qualifying Type Name (Automation)' has been successfully deleted.</value>
+      <webElementGuid>b419da1e-2b25-410b-ab75-9a35b7f1905b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;Snackbar_snackbar-wrapper__ocbPJ Snackbar_snackbar-wrapper-bottom-right__8wQeQ&quot;]/div[@class=&quot;Snackbar_snackbar__GsYZl&quot;]/div[@class=&quot;Snackbar_snackbar__text__1Hx2a&quot;]</value>
+      <webElementGuid>75a45b68-cdae-4011-8122-0649c408b651</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[3]/div/div</value>
+      <webElementGuid>84db349c-73e3-44dc-a52b-db5ef9d395db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Powered by:'])[1]/following::div[4]</value>
+      <webElementGuid>7977703b-81a8-4d18-8701-377fe4085550</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div</value>
+      <webElementGuid>3210c274-2bab-4a32-bfe4-64c76f74f17d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = concat(&quot;Record &quot; , &quot;'&quot; , &quot;Age Qualifying Type Code: 321 Age Qualifying Type Name: Age Qualifying Type Name (Automation)&quot; , &quot;'&quot; , &quot; has been successfully deleted.&quot;) or . = concat(&quot;Record &quot; , &quot;'&quot; , &quot;Age Qualifying Type Code: 321 Age Qualifying Type Name: Age Qualifying Type Name (Automation)&quot; , &quot;'&quot; , &quot; has been successfully deleted.&quot;))]</value>
+      <webElementGuid>f69d0949-6f91-4b35-adbd-4b0927f7520a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

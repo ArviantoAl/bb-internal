@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Age Qualifying Type Name</name>
+   <tag></tag>
+   <elementGuidId>7ffc069a-9b92-4207-89ce-a84a2652f353</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.col-sm-6.col-md-5.col-lg-4.col-form-label</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/section/form/div/div/div/div/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>bfc1f64a-ebfe-4565-9ef6-6701b65e0e2d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>col-sm-6 col-md-5 col-lg-4 col-form-label</value>
+      <webElementGuid>b757ad30-58f9-483b-8023-14351b1cd07a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Age Qualifying Type Name</value>
+      <webElementGuid>623eae72-ee30-4613-b67a-fb7f1a8adbb1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;content-wrapper&quot;]/div[@class=&quot;container-fluid pb-5&quot;]/section[@class=&quot;content&quot;]/form[@class=&quot;container-fluid pl-0&quot;]/div[@class=&quot;card card-default border&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xs-12 col-sm-6 col-md-7 col-lg-6 order-2 order-sm-1 mb-4&quot;]/div[@class=&quot;form-horizontal&quot;]/div[@class=&quot;form-group required row d-flex align-items-center&quot;]/div[@class=&quot;col-sm-6 col-md-5 col-lg-4 col-form-label&quot;]</value>
+      <webElementGuid>a5224713-c05b-4369-8590-a05cff07a42c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/section/form/div/div/div/div/div/div/div</value>
+      <webElementGuid>3814d648-b362-4300-aafb-6fa4180be301</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create Age Qualifying Type'])[2]/following::div[7]</value>
+      <webElementGuid>205fb781-de08-4822-b098-7fbc6ef67d97</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create Age Qualifying Type'])[1]/following::div[8]</value>
+      <webElementGuid>ef8c8617-8b0c-4ee0-a878-e0a1ae6cbeef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='For Interface Purpose'])[1]/preceding::div[3]</value>
+      <webElementGuid>e1db00f7-209f-4a62-92e4-0d44544aacd2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div/div/div/div/div/div/div</value>
+      <webElementGuid>f68ddc1c-4dc0-4f06-b18a-abd56a5a6053</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Age Qualifying Type Name' or . = 'Age Qualifying Type Name')]</value>
+      <webElementGuid>024266dc-2b9e-4656-a4bb-c0e6a9a2a445</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

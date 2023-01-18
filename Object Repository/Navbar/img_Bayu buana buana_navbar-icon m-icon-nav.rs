@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_Bayu buana buana_navbar-icon m-icon-nav</name>
+   <tag></tag>
+   <elementGuidId>d20cf291-0141-41ae-8a6d-883fd4dd7345</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.nav-link.nav-link-o.px-2.px-xl-2.notification-toggle.dropdown-toggle.btn.btn-primary > div > img.navbar-icon.m-icon-nav</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/nav/ul[2]/li[2]/div/button/div/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>99a12ed0-19fd-4f20-9d8e-7086e79aedf4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/static/media/notification.05ff5fb8.svg</value>
+      <webElementGuid>9f61278d-e8d4-430a-a1e4-af2d83c44fe0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>notif icon</value>
+      <webElementGuid>b7574a8c-75c4-4b55-8fb2-6033318efcdb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>navbar-icon m-icon-nav</value>
+      <webElementGuid>4333b8e8-6aac-4d63-83a8-16549d7d378a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[1]/nav[@class=&quot;main-header navbar navbar-expand navbar-white navbar-light m-navbar-m&quot;]/ul[@class=&quot;navbar-nav ml-auto navbar-nav-right m-bb-nav&quot;]/li[@class=&quot;nav-item&quot;]/div[@class=&quot;dropdown&quot;]/button[@class=&quot;nav-link nav-link-o px-2 px-xl-2 notification-toggle dropdown-toggle btn btn-primary&quot;]/div[1]/img[@class=&quot;navbar-icon m-icon-nav&quot;]</value>
+      <webElementGuid>54374ec3-4eff-4f15-b688-1b75830a5f31</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/nav/ul[2]/li[2]/div/button/div/img</value>
+      <webElementGuid>be9b2d95-79f9-4cb2-8f5a-96273c5a5d43</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='notif icon']</value>
+      <webElementGuid>4f413076-f1c7-46d0-bc13-0b3d0432a7d6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/div/img</value>
+      <webElementGuid>0d9ac950-ef47-4711-843e-c8bd6133d317</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = '/static/media/notification.05ff5fb8.svg' and @alt = 'notif icon']</value>
+      <webElementGuid>4be7cf36-2031-4a24-bc2d-e28d59d0b6ad</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

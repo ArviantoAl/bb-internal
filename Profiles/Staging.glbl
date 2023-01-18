@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>Staging</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description>URL Staging</description>
+      <initValue>'https://bbstg.monstercode.net/auth/login'</initValue>
+      <name>url_login</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'saepuloh.belajar@gmail.com'</initValue>
+      <name>user_corporate</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'takterdaftar@naragas.com'</initValue>
+      <name>user_corporate_not_listed</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'@masukl4h'</initValue>
+      <name>pass_corporate</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

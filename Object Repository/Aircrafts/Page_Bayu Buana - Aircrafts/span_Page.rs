@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Page</name>
+   <tag></tag>
+   <elementGuidId>63714334-d58d-4876-bf0a-7aa329b8a5d6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.d-none.d-md-block.float-right.mt-2.mr-2.text-label-page</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='DataTables_Table_0_paginate']/span[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>12e3485d-2bac-458d-b50e-c7db58aa673a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>d-none d-md-block float-right mt-2 mr-2 text-label-page</value>
+      <webElementGuid>10f3c667-eaf4-4c8d-bcb2-2b241dbe3464</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Page: </value>
+      <webElementGuid>8e4f2f02-a1ef-4f1b-b858-47281be781be</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;DataTables_Table_0_paginate&quot;)/span[@class=&quot;d-none d-md-block float-right mt-2 mr-2 text-label-page&quot;]</value>
+      <webElementGuid>a3bfdd54-18aa-47c0-bfb2-356feba6b851</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='DataTables_Table_0_paginate']/span[2]</value>
+      <webElementGuid>fa353b34-4fd8-49ad-8f34-671b5c62f9cf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Page:'])[1]/following::span[1]</value>
+      <webElementGuid>1d2c5ea6-86fd-4464-84e6-febbc09496cc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Showing 1 - 10 of 263'])[1]/following::span[2]</value>
+      <webElementGuid>1ec9df7e-bb94-4008-8ddd-84d30fa58e95</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Powered by:'])[1]/preceding::span[1]</value>
+      <webElementGuid>091d037c-6402-42a9-8832-b4599614b7e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/span[2]</value>
+      <webElementGuid>28982435-aa25-44b2-a206-161b90c7c290</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Page: ' or . = 'Page: ')]</value>
+      <webElementGuid>7414e9f1-8249-4758-b937-e43e7d40077c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

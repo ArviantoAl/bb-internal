@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Log_TC.003 - Adm - Masuk (email invalid)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>51093104-b732-49e8-98fc-f7781a959363</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>path_Actions_svg_2</name>
+   <tag></tag>
+   <elementGuidId>859c529f-e851-4247-8e74-593d6d5b40cc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//path[@id = 'svg_2']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>(//*[@id = 'svg_2'])[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#svg_2</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+      <webElementGuid>da173661-2a31-454c-8fd2-77bb771e2f31</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M11.901639938354492,13 a1.5,1.5 0 1 1 -3,0 a1.5,1.5 0 0 1 3,0 zm0,-5 a1.5,1.5 0 1 1 -3,0 a1.5,1.5 0 0 1 3,0 zm0,-5 a1.5,1.5 0 1 1 -3,0 a1.5,1.5 0 0 1 3,0 z</value>
+      <webElementGuid>e1122921-b722-416d-8bf0-630940a451b9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>#707070</value>
+      <webElementGuid>5d65c97d-4914-4d5b-8ab7-94b0b880ed76</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>svg_2</value>
+      <webElementGuid>f539dc43-7b46-45f3-b422-443d741e7fc2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//*[@id = 'svg_2'])[1]</value>
+      <webElementGuid>b4623284-5caf-4065-b8c7-94e6bb9da3ac</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//path[@id = 'svg_2']</value>
+      <webElementGuid>5fc02b64-339d-4280-851b-dca531c9f485</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

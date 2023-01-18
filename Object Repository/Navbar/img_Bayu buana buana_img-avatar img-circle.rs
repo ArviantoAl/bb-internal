@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_Bayu buana buana_img-avatar img-circle</name>
+   <tag></tag>
+   <elementGuidId>2cf56c1c-1206-4dfa-a63e-18eba595baa9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>img.img-avatar.img-circle</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/nav/ul[2]/li[3]/a/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>27c63907-2c41-466a-9c2b-8e15e5188cab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAABHNCSVQICAgIfAhkiAAAA8JJREFUeF7tnM9KalEYxb8tIRJJ4qSImmRQg2bH/hDNClLCWS/RrEe4b9FLNJWIBg6KQuxMGgRBRFQ0iBD7g0hE3v3t8mLdupz05PLS2nDK9Jxv6frttffugNvIazs4OOiv1+tz9s9xeyQaz/N3qA5UbLVjY8xeOp2+1cpGf/i+P2bNX7FHLFQ5FvvQAQugZo8Nz/NOjPZ8e9Yqze9sb1EIVnHdlEqlrH0w01l5qr06UFQAaxzzYR2iogB+weQpLAQA7gQEQABgB8DyTAABgB0AyzMBBAB2ACzPBBAA2AGwPBNAAGAHwPJMAAGAHQDLMwEEAHYALM8EEADYAbA8E0AAYAfA8kwAAYAdAMszAQQAdgAszwQQANgBsDwTQABgB8DyTAABgB0AyzMBBAB2ACzPBBAA2AGwPBNAAJ87cHl5KeVyuS2LksmkDA8Pt1XjOy/u2gSo8Zubm9Lb2ys9PT0tefD09CTValWy2awoiG5sXQvg9PRU7BcIZXl5Wfr6+uTx8dH5F41GA/v48PAg+XxepqamZHR0NPB1nTzxvwBwd3cnh4eHzpfJycnAQwoBtNGVGgnQ4aNQKMj19bWrNjg4KLlc7q/KOmQlEgmJRCJ/XiOAEADoELS7uysXFxeu2sjIiGQymTeVr66uHKSBgQGZn5+XWOxlywsCCAmATqZHR0eu2sTExJsJVc3f3993qyXt/alUSmZnZx0EAggJgE7Cz8/PrlrzEKPD0vb2tlvpNJq+rilZXFx0z3MSbhHC+1WQljk7O5Pz83OZnp52PV6HnWbzm6U0CXZPHreU5SqoBQjvAaj5xWJRdEU0NDQktVrtn/+k6YS8sLDgEkIAbQK4ubmRnZ0dZ3rQRgBBnfrkvEYClpaWXC+uVHS3r+CNAIJ79eGZzQDsrl5yf3//pYrxeNzNAVtbWxyCvuTc68nNc4DeC2qsgoLW0tWQLl+5Cgrq2LvzeDOuRePCvIy3o8N0k7U+dKBr74b+FF4EACZNAAQAdgAszwQQANgBsDwTQABgB8DyTAABgB0AyzMBBAB2ACzPBBAA2AGwPBNAAGAHwPJMAAGAHQDLMwEEAHYALM8EEADYAbA8E0AAYAfA8kwAAYAdAMszAQQAdgAszwQQANgBsDwTQABgB8DyTAABgB0Ay2sC1ux7SIDfx0+VryiArP30Mz/VAfDnLhr7Jeh++yZW6/X6yyY7bB1xwBij+y6sG1XzfX/MAlghhI54L2q+PTY8zztxALRpEiyAOftwnHPCt4HQDS+Orfl7dhuFW1X5DWWsVfH4qabaAAAAAElFTkSuQmCC</value>
+      <webElementGuid>a15d6ae5-d397-4654-9e94-602ad08c29c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>User Avatar</value>
+      <webElementGuid>32a33d22-000e-4f21-a307-2b48ce115159</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>img-avatar img-circle</value>
+      <webElementGuid>1e991549-77d1-4a84-abf2-50bf017cbf10</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[1]/nav[@class=&quot;main-header navbar navbar-expand navbar-white navbar-light m-navbar-m&quot;]/ul[@class=&quot;navbar-nav ml-auto navbar-nav-right m-bb-nav&quot;]/li[@class=&quot;nav-item dropdown&quot;]/a[@class=&quot;nav-link pl-0 pl-sm-3 m-profile-circle nav-profile-link&quot;]/img[@class=&quot;img-avatar img-circle&quot;]</value>
+      <webElementGuid>704a4190-d92f-4781-829b-c8c605175b0a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/nav/ul[2]/li[3]/a/img</value>
+      <webElementGuid>78968dc2-6e0a-42ec-bca7-b022f51494f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='User Avatar']</value>
+      <webElementGuid>831eb0e8-2ae9-4c51-96f9-c0632fadb0dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]/a/img</value>
+      <webElementGuid>33d80170-af79-4fd7-afa5-7ce4d7908493</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAABHNCSVQICAgIfAhkiAAAA8JJREFUeF7tnM9KalEYxb8tIRJJ4qSImmRQg2bH/hDNClLCWS/RrEe4b9FLNJWIBg6KQuxMGgRBRFQ0iBD7g0hE3v3t8mLdupz05PLS2nDK9Jxv6frttffugNvIazs4OOiv1+tz9s9xeyQaz/N3qA5UbLVjY8xeOp2+1cpGf/i+P2bNX7FHLFQ5FvvQAQugZo8Nz/NOjPZ8e9Yqze9sb1EIVnHdlEqlrH0w01l5qr06UFQAaxzzYR2iogB+weQpLAQA7gQEQABgB8DyTAABgB0AyzMBBAB2ACzPBBAA2AGwPBNAAGAHwPJMAAGAHQDLMwEEAHYALM8EEADYAbA8E0AAYAfA8kwAAYAdAMszAQQAdgAszwQQANgBsDwTQABgB8DyTAABgB0AyzMBBAB2ACzPBBAA2AGwPBNAAJ87cHl5KeVyuS2LksmkDA8Pt1XjOy/u2gSo8Zubm9Lb2ys9PT0tefD09CTValWy2awoiG5sXQvg9PRU7BcIZXl5Wfr6+uTx8dH5F41GA/v48PAg+XxepqamZHR0NPB1nTzxvwBwd3cnh4eHzpfJycnAQwoBtNGVGgnQ4aNQKMj19bWrNjg4KLlc7q/KOmQlEgmJRCJ/XiOAEADoELS7uysXFxeu2sjIiGQymTeVr66uHKSBgQGZn5+XWOxlywsCCAmATqZHR0eu2sTExJsJVc3f3993qyXt/alUSmZnZx0EAggJgE7Cz8/PrlrzEKPD0vb2tlvpNJq+rilZXFx0z3MSbhHC+1WQljk7O5Pz83OZnp52PV6HnWbzm6U0CXZPHreU5SqoBQjvAaj5xWJRdEU0NDQktVrtn/+k6YS8sLDgEkIAbQK4ubmRnZ0dZ3rQRgBBnfrkvEYClpaWXC+uVHS3r+CNAIJ79eGZzQDsrl5yf3//pYrxeNzNAVtbWxyCvuTc68nNc4DeC2qsgoLW0tWQLl+5Cgrq2LvzeDOuRePCvIy3o8N0k7U+dKBr74b+FF4EACZNAAQAdgAszwQQANgBsDwTQABgB8DyTAABgB0AyzMBBAB2ACzPBBAA2AGwPBNAAGAHwPJMAAGAHQDLMwEEAHYALM8EEADYAbA8E0AAYAfA8kwAAYAdAMszAQQAdgAszwQQANgBsDwTQABgB8DyTAABgB0Ay2sC1ux7SIDfx0+VryiArP30Mz/VAfDnLhr7Jeh++yZW6/X6yyY7bB1xwBij+y6sG1XzfX/MAlghhI54L2q+PTY8zztxALRpEiyAOftwnHPCt4HQDS+Orfl7dhuFW1X5DWWsVfH4qabaAAAAAElFTkSuQmCC' and @alt = 'User Avatar']</value>
+      <webElementGuid>9b927288-7027-4609-83ce-fb9e24c2f37a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

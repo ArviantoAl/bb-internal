@@ -1,0 +1,41 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RUN,Chrome 108.0.0.0,,,2023-01-12 12:30:33,2023-01-12 12:31:19,45.801s,PASSED
+,,,,,,,
+Test Cases/COBA/Age Qualifying Types - Delete,Chrome 108.0.0.0,,,2023-01-12 12:30:34,2023-01-12 12:30:57,23.014s,PASSED
+"callTestCase(findTestCase(""COBA/Login""), [:], STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-12 12:30:34,2023-01-12 12:30:44,10.025s,PASSED
+"click(findTestObject(""Page_Bayu Buana - Master Data Management/p_Master Data Management""))",Chrome 108.0.0.0,,,2023-01-12 12:30:44,2023-01-12 12:30:46,2.138s,PASSED
+"click(findTestObject(""Page_Bayu Buana - Master Data Management/p_Age Qualifying Type""))",Chrome 108.0.0.0,,,2023-01-12 12:30:46,2023-01-12 12:30:47,0.644s,PASSED
+"setText(findTestObject(""Object Repository/Age QT/Delete/Page_Bayu Buana - Age Qualifying Types/input_Age Qualifying Types_form-control""), ""Age Qualifying Type Name (Automation)"")",Chrome 108.0.0.0,,,2023-01-12 12:30:47,2023-01-12 12:30:49,1.462s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Age QT/Delete/Page_Bayu Buana - Age Qualifying Types/path_Actions_svg_2""), 0)",Chrome 108.0.0.0,,,2023-01-12 12:30:49,2023-01-12 12:30:49,0.377s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Age QT/Delete/Page_Bayu Buana - Age Qualifying Types/input_Actions_float-left select-checkbox-it_8952ca""), 0)",Chrome 108.0.0.0,,,2023-01-12 12:30:49,2023-01-12 12:30:49,0.355s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Age QT/Delete/Page_Bayu Buana - Age Qualifying Types/td_321""), 0)",Chrome 108.0.0.0,,,2023-01-12 12:30:49,2023-01-12 12:30:50,0.681s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Age QT/Delete/Page_Bayu Buana - Age Qualifying Types/td_Age Qualifying Type Name (Automation)""), 0)",Chrome 108.0.0.0,,,2023-01-12 12:30:50,2023-01-12 12:30:50,0.466s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Age QT/Delete/Page_Bayu Buana - Age Qualifying Types/td_Active""), 0)",Chrome 108.0.0.0,,,2023-01-12 12:30:50,2023-01-12 12:30:51,0.453s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Age QT/Delete/Page_Bayu Buana - Age Qualifying Types/img""))",Chrome 108.0.0.0,,,2023-01-12 12:30:51,2023-01-12 12:30:51,0.380s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Age QT/Delete/Page_Bayu Buana - Age Qualifying Types/img_1""))",Chrome 108.0.0.0,,,2023-01-12 12:30:51,2023-01-12 12:30:52,0.375s,PASSED
+"click(findTestObject(""Object Repository/Age QT/Delete/Page_Bayu Buana - Age Qualifying Types/img_1_2""))",Chrome 108.0.0.0,,,2023-01-12 12:30:52,2023-01-12 12:30:52,0.654s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Age QT/Delete/Page_Bayu Buana - Age Qualifying Types/div_Delete Age Qualifying Type""), ""Delete Age Qualifying Type"")",Chrome 108.0.0.0,,,2023-01-12 12:30:52,2023-01-12 12:30:53,0.625s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Age QT/Delete/Page_Bayu Buana - Age Qualifying Types/div_Are you sure you want to delete thisAge_c332eb""), 0)",Chrome 108.0.0.0,,,2023-01-12 12:30:53,2023-01-12 12:30:53,0.451s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Age QT/Delete/Page_Bayu Buana - Age Qualifying Types/button_Delete""))",Chrome 108.0.0.0,,,2023-01-12 12:30:53,2023-01-12 12:30:54,0.456s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Age QT/Delete/Page_Bayu Buana - Age Qualifying Types/button_Cancel""))",Chrome 108.0.0.0,,,2023-01-12 12:30:54,2023-01-12 12:30:54,0.501s,PASSED
+"click(findTestObject(""Object Repository/Age QT/Delete/Page_Bayu Buana - Age Qualifying Types/button_Delete""))",Chrome 108.0.0.0,,,2023-01-12 12:30:54,2023-01-12 12:30:55,0.695s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Age QT/Delete/Page_Bayu Buana - Age Qualifying Types/div_Record Age Qualifying Type Code 321 Age_41ef1f""), 0)",Chrome 108.0.0.0,,,2023-01-12 12:30:55,2023-01-12 12:30:56,0.722s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Age QT/Delete/Page_Bayu Buana - Age Qualifying Types/td_No age qualifying types found""), ""No age qualifying types found"")",Chrome 108.0.0.0,,,2023-01-12 12:30:56,2023-01-12 12:30:56,0.539s,PASSED
+takeScreenshot(),Chrome 108.0.0.0,,,2023-01-12 12:30:56,2023-01-12 12:30:57,0.475s,PASSED
+,,,,,,,
+Test Cases/COBA/Age Qualifying Types - Create,Chrome 108.0.0.0,,,2023-01-12 12:30:57,2023-01-12 12:31:19,22.449s,PASSED
+"callTestCase(findTestCase(""COBA/Login""), [:], STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-12 12:30:57,2023-01-12 12:31:04,7.143s,PASSED
+"click(findTestObject(""Page_Bayu Buana - Master Data Management/p_Master Data Management""))",Chrome 108.0.0.0,,,2023-01-12 12:31:04,2023-01-12 12:31:07,2.238s,PASSED
+"click(findTestObject(""Page_Bayu Buana - Master Data Management/p_Age Qualifying Type""))",Chrome 108.0.0.0,,,2023-01-12 12:31:07,2023-01-12 12:31:07,0.547s,PASSED
+"click(findTestObject(""Object Repository/Age QT/Create/Page_Bayu Buana - Age Qualifying Types/button_Create New""))",Chrome 108.0.0.0,,,2023-01-12 12:31:07,2023-01-12 12:31:08,1.058s,PASSED
+"click(findTestObject(""Object Repository/Age QT/Create/Page_Bayu Buana - Create Age Qualifying Type/input_Age Qualifying Type Name_age_qualifyi_ba4776""))",Chrome 108.0.0.0,,,2023-01-12 12:31:08,2023-01-12 12:31:09,0.652s,PASSED
+"click(findTestObject(""Object Repository/Age QT/Create/Page_Bayu Buana - Create Age Qualifying Type/div_Age Qualifying Type Name""))",Chrome 108.0.0.0,,,2023-01-12 12:31:09,2023-01-12 12:31:09,0.612s,PASSED
+"setText(findTestObject(""Object Repository/Age QT/Create/Page_Bayu Buana - Create Age Qualifying Type/input_Age Qualifying Type Name_age_qualifyi_ba4776""), ""Age Qualifying Type Name (Automation)"")",Chrome 108.0.0.0,,,2023-01-12 12:31:09,2023-01-12 12:31:13,3.443s,PASSED
+"setText(findTestObject(""Object Repository/Age QT/Create/Page_Bayu Buana - Create Age Qualifying Type/input_Age Qualifying Type Code_age_qualifyi_5ae899""), ""321"")",Chrome 108.0.0.0,,,2023-01-12 12:31:13,2023-01-12 12:31:14,1.095s,PASSED
+"click(findTestObject(""Object Repository/Age QT/Create/Page_Bayu Buana - Create Age Qualifying Type/button_SAVE""))",Chrome 108.0.0.0,,,2023-01-12 12:31:14,2023-01-12 12:31:15,1.076s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Age QT/Create/Page_Bayu Buana - Age Qualifying Types/div_Record 321 - Age Qualifying Type Name (_29f3cb""), 0)",Chrome 108.0.0.0,,,2023-01-12 12:31:15,2023-01-12 12:31:16,1.082s,PASSED
+"setText(findTestObject(""Object Repository/Age QT/Create/Page_Bayu Buana - Age Qualifying Types/input_Age Qualifying Types_form-control""), ""321"")",Chrome 108.0.0.0,,,2023-01-12 12:31:16,2023-01-12 12:31:17,0.886s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Age QT/Create/Page_Bayu Buana - Age Qualifying Types/td_321""), ""321"")",Chrome 108.0.0.0,,,2023-01-12 12:31:17,2023-01-12 12:31:18,0.464s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Age QT/Create/Page_Bayu Buana - Age Qualifying Types/td_Age Qualifying Type Name (Automation)""), ""Age Qualifying Type Name (Automation)"")",Chrome 108.0.0.0,,,2023-01-12 12:31:18,2023-01-12 12:31:18,0.360s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Age QT/Create/Page_Bayu Buana - Age Qualifying Types/td_Active""), ""Active"")",Chrome 108.0.0.0,,,2023-01-12 12:31:18,2023-01-12 12:31:19,0.832s,PASSED
+takeScreenshot(STOP_ON_FAILURE),Chrome 108.0.0.0,,,2023-01-12 12:31:19,2023-01-12 12:31:19,0.498s,PASSED

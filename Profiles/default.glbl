@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>URL DEV</description>
+      <initValue>'http://bbdev.monstercode.net/'</initValue>
+      <name>url_login</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'saepuloh.belajar@gmail.com'</initValue>
+      <name>user_corporate</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'3gFg2!#g#$Fh0fdF'</initValue>
+      <name>pass_corporate</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

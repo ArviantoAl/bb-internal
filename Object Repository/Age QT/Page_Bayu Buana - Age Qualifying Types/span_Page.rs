@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Page</name>
+   <tag></tag>
+   <elementGuidId>9bc17562-2c15-413d-8b35-a62d3649ca4e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.d-none.d-md-block.float-right.mt-2.mr-2.text-label-page</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='DataTables_Table_0_paginate']/span[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>6da585f7-a958-4321-8280-2ce7b6d9dba6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>d-none d-md-block float-right mt-2 mr-2 text-label-page</value>
+      <webElementGuid>6158be83-827c-4019-9ffd-8ba378ad01ff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Page: </value>
+      <webElementGuid>a8aa7160-365c-4e48-b388-9292a708b185</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;DataTables_Table_0_paginate&quot;)/span[@class=&quot;d-none d-md-block float-right mt-2 mr-2 text-label-page&quot;]</value>
+      <webElementGuid>ee924f4e-5d3c-4448-9c03-bcf17a760b79</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='DataTables_Table_0_paginate']/span[2]</value>
+      <webElementGuid>ba25a457-8791-44b7-bd86-bd5da68c3225</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Page:'])[1]/following::span[1]</value>
+      <webElementGuid>f8b60a4b-a4bf-44d2-99b7-9e39a0c906ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Showing 1 - 2 of 2'])[1]/following::span[2]</value>
+      <webElementGuid>b3be25c4-2847-4553-b29e-0beb2127d977</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Powered by:'])[1]/preceding::span[1]</value>
+      <webElementGuid>dc70ca94-9410-4518-b81b-6f571f483990</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/span[2]</value>
+      <webElementGuid>ac076169-5dfb-4d5d-958c-3c79e31985a2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Page: ' or . = 'Page: ')]</value>
+      <webElementGuid>c4e059f0-ded3-4ccc-952e-310c69aca270</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

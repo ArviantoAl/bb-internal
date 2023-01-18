@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_SAVE  NEXTCANCEL</name>
+   <tag></tag>
+   <elementGuidId>148de3d4-a400-4900-89ae-ac4ea43f0896</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.ml-1.mt-3.row.justify-content-md-start.justify-content-center</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/section/div/div/div[2]/div/div/form/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>14f0845b-c634-4343-872d-30d76286a159</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ml-1 mt-3 row justify-content-md-start justify-content-center</value>
+      <webElementGuid>3906f0dd-6d48-4eb7-9695-6e7eead1ccb9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>SAVE &amp; NEXTCANCEL</value>
+      <webElementGuid>5c751a66-2ea2-480d-9395-5a5f205ff2fa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;content-wrapper&quot;]/div[@class=&quot;container-fluid pb-5&quot;]/section[@class=&quot;content&quot;]/div[@class=&quot;mt-2&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-9&quot;]/div[@class=&quot;tab-content&quot;]/div[@class=&quot;fade tab-pane active show&quot;]/form[@class=&quot;general_information&quot;]/div[@class=&quot;ml-1 mt-3 row justify-content-md-start justify-content-center&quot;]</value>
+      <webElementGuid>a1cdc13a-377c-4cd9-9150-49ebf241c1c9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/section/div/div/div[2]/div/div/form/div[2]</value>
+      <webElementGuid>5effc7bd-89f3-466c-9122-a6c529b60b4b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='UPLOAD PHOTO'])[1]/following::div[1]</value>
+      <webElementGuid>ebdf80ba-f08c-456f-96fc-cc1da493a345</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Logo'])[1]/following::div[3]</value>
+      <webElementGuid>94e3c3e0-63d4-4d32-be80-a54f4c73b3b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div[2]</value>
+      <webElementGuid>6f285f18-6927-4c19-8c71-5293f894b0c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'SAVE &amp; NEXTCANCEL' or . = 'SAVE &amp; NEXTCANCEL')]</value>
+      <webElementGuid>14e07ea4-0865-4242-8f44-1096394a1139</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

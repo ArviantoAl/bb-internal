@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_A user was not found with the given cre_adf26c</name>
+   <tag></tag>
+   <elementGuidId>7316aa96-eed1-4ac6-a59d-ed8bb05bf239</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.Snackbar_snackbar__text__1Hx2a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[2]/div/div</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'A user was not found with the given credentials.' or . = 'A user was not found with the given credentials.')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>f69f4627-8d92-4272-8741-5706efdc1623</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Snackbar_snackbar__text__1Hx2a</value>
+      <webElementGuid>165b549f-f974-42c7-8934-2dfe0ac67a2e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>A user was not found with the given credentials.</value>
+      <webElementGuid>7dec9899-73ac-42e1-b7d6-4599016c7299</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;Snackbar_snackbar-wrapper__ocbPJ Snackbar_snackbar-wrapper-bottom-right__8wQeQ&quot;]/div[@class=&quot;Snackbar_snackbar__GsYZl&quot;]/div[@class=&quot;Snackbar_snackbar__text__1Hx2a&quot;]</value>
+      <webElementGuid>38a09168-4123-447b-8981-fb7092f5ca9f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div/div</value>
+      <webElementGuid>3197411a-0b08-4f91-b353-721b91a4b3af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SIGN IN'])[1]/following::div[4]</value>
+      <webElementGuid>38e8a7e6-bf6d-4582-8ac6-4c651cf15b9c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remember Me'])[1]/following::div[6]</value>
+      <webElementGuid>9548390e-f437-44ec-8232-a4fd680326db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='A user was not found with the given credentials.']/parent::*</value>
+      <webElementGuid>115f55b0-03b5-41cb-b966-6e93b49fddda</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div</value>
+      <webElementGuid>d655da03-3184-4d2e-a6bd-72e86a6d17cb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'A user was not found with the given credentials.' or . = 'A user was not found with the given credentials.')]</value>
+      <webElementGuid>0216aabe-2d88-4184-a869-8f521bbeade9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
