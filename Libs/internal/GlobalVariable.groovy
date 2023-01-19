@@ -10,8 +10,8 @@ import com.kms.katalon.core.main.TestCaseMain
 public class GlobalVariable {
      
     /**
-     * <p>Profile default : URL DEV
-Profile Staging : URL Staging</p>
+     * <p>Profile Staging : URL Staging
+Profile default : URL DEV</p>
      */
     public static Object url_login
      
@@ -23,12 +23,12 @@ Profile Staging : URL Staging</p>
     /**
      * <p></p>
      */
-    public static Object pass_corporate
+    public static Object user_corporate_not_listed
      
     /**
      * <p></p>
      */
-    public static Object user_corporate_not_listed
+    public static Object pass_corporate
      
 
     static {
@@ -39,8 +39,8 @@ Profile Staging : URL Staging</p>
     
             url_login = selectedVariables['url_login']
             user_corporate = selectedVariables['user_corporate']
-            pass_corporate = selectedVariables['pass_corporate']
             user_corporate_not_listed = selectedVariables['user_corporate_not_listed']
+            pass_corporate = selectedVariables['pass_corporate']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

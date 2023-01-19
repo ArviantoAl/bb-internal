@@ -1,8 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-RUN,,,,2023-01-16 14:23:46,2023-01-16 14:23:56,10.119s,FAILED
-,,,,,,,
-Test Cases/COBA/Age Qualifying Types - Delete,,,,2023-01-16 14:23:47,2023-01-16 14:23:53,6.392s,FAILED
-"callTestCase(findTestCase(""COBA/Login""), [:], STOP_ON_FAILURE)",,,,2023-01-16 14:23:47,2023-01-16 14:23:53,5.870s,FAILED
-,,,,,,,
-Test Cases/COBA/Age Qualifying Types - Create,,,,2023-01-16 14:23:53,2023-01-16 14:23:56,3.153s,FAILED
-"callTestCase(findTestCase(""COBA/Login""), [:], STOP_ON_FAILURE)",,,,2023-01-16 14:23:54,2023-01-16 14:23:56,2.365s,FAILED

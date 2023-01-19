@@ -3,7 +3,7 @@
    <description></description>
    <name>Staging</name>
    <tag></tag>
-   <defaultProfile>false</defaultProfile>
+   <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description>URL Staging</description>
       <initValue>'https://bbstg.monstercode.net/auth/login'</initValue>
@@ -11,7 +11,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'saepuloh.belajar@gmail.com'</initValue>
+      <initValue>'coba.dilain@gmail.com'</initValue>
       <name>user_corporate</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

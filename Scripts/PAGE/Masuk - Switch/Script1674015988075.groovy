@@ -40,7 +40,7 @@ switch (action) {
 
         WebUI.verifyElementVisible(findTestObject('Object Repository/Login/Page_Bayu Buana/div_Email is required'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.setText(findTestObject('Object Repository/Page_Bayu Buana/input_Email_username'), 'hargblus@gmail.com')
+        WebUI.setText(findTestObject('Object Repository/Page_Bayu Buana/input_Email_username'), GlobalVariable.user_corporate)
 
         WebUI.verifyElementPresent(findTestObject('Object Repository/Login/Page_Bayu Buana/div_Email is not a valid email'), 
             0)

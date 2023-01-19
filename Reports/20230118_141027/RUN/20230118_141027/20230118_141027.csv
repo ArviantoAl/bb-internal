@@ -1,8 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-RUN,Chrome 109.0.0.0,,,2023-01-18 14:10:45,2023-01-18 14:12:31,1m - 45.938s,FAILED
-,,,,,,,
-Test Cases/COBA/Age Qualifying Types - Delete,Chrome 109.0.0.0,,,2023-01-18 14:10:45,2023-01-18 14:11:36,50.688s,FAILED
-"callTestCase(findTestCase(""COBA/Login""), [:], STOP_ON_FAILURE)",Chrome 109.0.0.0,,,2023-01-18 14:10:46,2023-01-18 14:11:36,50.087s,FAILED
-,,,,,,,
-Test Cases/COBA/Age Qualifying Types - Create,Chrome 109.0.0.0,,,2023-01-18 14:11:36,2023-01-18 14:12:31,54.788s,FAILED
-"callTestCase(findTestCase(""COBA/Login""), [:], STOP_ON_FAILURE)",Chrome 109.0.0.0,,,2023-01-18 14:11:37,2023-01-18 14:12:31,54.279s,FAILED
