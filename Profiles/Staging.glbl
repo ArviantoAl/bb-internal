@@ -24,4 +24,9 @@
       <initValue>'@masukl4h'</initValue>
       <name>pass_corporate</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'VlTNMqXNBmwuIj8hL0vFZw=='</initValue>
+      <name>pass_corporate_encrypted</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

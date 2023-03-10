@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SD_TC.037 Edit _field name _more than 256 characters</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0213122e-13df-4c3f-a9d3-05bc44ae6bdc</testCaseGuid>
+</TestCaseEntity>
