@@ -59,6 +59,6 @@ WebUI.setText(findTestObject('Object Repository/special_dates/field_name'), str2
 
 WebUI.verifyElementText(findTestObject('Object Repository/special_dates/error_message_field_name'), 'Special Date Name already exists')
 
-//WebUI.takeScreenshot('special_dates/SD_TC.039-040.png')
+WebUI.takeScreenshot()
 
 WebUI.closeBrowser()

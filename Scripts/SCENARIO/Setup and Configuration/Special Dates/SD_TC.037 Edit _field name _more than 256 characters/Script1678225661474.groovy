@@ -54,6 +54,6 @@ WebUI.setText(findTestObject('Object Repository/special_dates/field_name'), keyw
 
 WebUI.click(findTestObject('Object Repository/special_dates/btn_save'))
 
-//WebUI.takeScreenshot('special_dates/Edit _field name _more than 256 characters.png')
+WebUI.takeScreenshot()
 
 WebUI.closeBrowser()

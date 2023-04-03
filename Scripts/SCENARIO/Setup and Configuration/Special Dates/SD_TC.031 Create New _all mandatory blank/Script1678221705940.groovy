@@ -37,6 +37,6 @@ WebUI.click(findTestObject('Object Repository/violation_reason/btn_create_new'))
 
 WebUI.verifyElementHasAttribute(findTestObject('Object Repository/special_dates/btn_save'), 'disabled', 0)
 
-//WebUI.takeScreenshot('special_dates/Create New _all mandatory blank.png')
+WebUI.takeScreenshot()
 
 WebUI.closeBrowser()

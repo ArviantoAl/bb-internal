@@ -88,6 +88,6 @@ System.out.println(referenceValuesDesc)
 
 assert referenceValuesDesc.equals(tableValuesDesc)
 
-//WebUI.takeScreenshot('special_dates/Sort _by name.png')
+WebUI.takeScreenshot()
 
 WebUI.closeBrowser()

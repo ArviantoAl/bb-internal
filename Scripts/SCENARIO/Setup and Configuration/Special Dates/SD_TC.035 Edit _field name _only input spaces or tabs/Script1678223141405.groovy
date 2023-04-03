@@ -42,6 +42,6 @@ WebUI.setText(findTestObject('Object Repository/special_dates/field_name'), ' ')
 
 WebUI.click(findTestObject('Object Repository/special_dates/btn_save'))
 
-//WebUI.takeScreenshot('special_dates/Edit _field name _only input spaces or tabs.png')
+WebUI.takeScreenshot()
 
 WebUI.closeBrowser()

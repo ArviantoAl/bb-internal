@@ -39,6 +39,6 @@ WebUI.click(findTestObject('Object Repository/special_dates/btn_cancel'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/special_dates/h1_title_sd'), 0)
 
-//WebUI.takeScreenshot('special_dates/Create New _cancel create.png')
+WebUI.takeScreenshot()
 
 WebUI.closeBrowser()

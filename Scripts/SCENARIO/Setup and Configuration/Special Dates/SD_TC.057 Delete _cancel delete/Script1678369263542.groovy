@@ -36,6 +36,6 @@ WebUI.click(findTestObject('Object Repository/special_dates/action_item_delete')
 
 WebUI.click(findTestObject('Object Repository/special_dates/btn_cancel2'))
 
-//WebUI.takeScreenshot('special_dates/Delete_cancel delete.png')
+WebUI.takeScreenshot()
 
 WebUI.closeBrowser()

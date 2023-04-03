@@ -77,7 +77,7 @@ WebUI.setText(findTestObject('Object Repository/special_dates/sd_name'), str2)
 
 WebUI.verifyElementText(findTestObject('Object Repository/special_dates/sd_name_error'), 'Special Date Name already exists')
 
-WebUI.takeScreenshot('special_dates/Create New _field name already exists in the same year (up & low case).png')
+WebUI.takeScreenshot()
 
 WebUI.closeBrowser()
 

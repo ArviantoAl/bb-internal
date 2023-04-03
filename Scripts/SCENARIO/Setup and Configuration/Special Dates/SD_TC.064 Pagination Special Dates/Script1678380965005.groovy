@@ -58,6 +58,6 @@ else {
 	WebUI.verifyMatch(numPage, '1', false)
 }
 
-//WebUI.takeScreenshot('special_dates/Pagination Special Dates.png')
+WebUI.takeScreenshot()
 
 WebUI.closeBrowser()

@@ -37,6 +37,6 @@ WebUI.click(findTestObject('Object Repository/special_dates/action_item_edit'))
 
 WebUI.click(findTestObject('Object Repository/special_dates/btn_cancel'))
 
-//WebUI.takeScreenshot('special_dates/Edit _cancel.png')
+WebUI.takeScreenshot()
 
 WebUI.closeBrowser()

@@ -41,6 +41,6 @@ WebUI.sendKeys(findTestObject('Object Repository/special_dates/field_name'), Key
 
 WebUI.verifyElementText(findTestObject('Object Repository/special_dates/error_message_field_name'), 'Special Date Name is required')
 
-//WebUI.takeScreenshot('special_dates/Edit _field name blank.png')
+WebUI.takeScreenshot()
 
 WebUI.closeBrowser()

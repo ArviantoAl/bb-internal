@@ -70,7 +70,7 @@ TestObject dynamicObject3 = new TestObject('dynamicObject3').addProperty('xpath'
 
 WebUI.verifyElementAttributeValue(dynamicObject3, 'class', 'rmdp-day rmdp-disabled', 0)
 
-WebUI.takeScreenshot('special_dates/Create New_start date  _11 years ago.png')
+WebUI.takeScreenshot()
 
 WebUI.closeBrowser()
 

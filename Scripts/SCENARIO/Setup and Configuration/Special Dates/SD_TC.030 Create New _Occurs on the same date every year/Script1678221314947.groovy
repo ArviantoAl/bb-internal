@@ -41,6 +41,6 @@ WebUI.click(findTestObject('Object Repository/special_dates/checkbox_sd'))
 
 WebUI.click(findTestObject('Object Repository/special_dates/btn_save'))
 
-//WebUI.takeScreenshot('special_dates/Create New _Occurs on the same date every year.png')
+WebUI.takeScreenshot()
 
 WebUI.closeBrowser()
