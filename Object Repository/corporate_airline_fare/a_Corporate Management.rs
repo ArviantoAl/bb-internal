@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Corporate Management</name>
+   <tag></tag>
+   <elementGuidId>c9e917c1-6a57-4221-b3f0-54df1b034eb5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='f3c71575-ec3b-555f-84ad-fd491c561afa']/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>b9b87d91-2bb5-404d-bec9-37e6adb07dfd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>javscript:void(0)</value>
+      <webElementGuid>aa668b73-3ed4-4490-905e-895351ff166b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>nav-link parent-link mb-0 </value>
+      <webElementGuid>f2df8c71-ad7d-4c24-9aef-dec7bc88a930</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Corporate Management</value>
+      <webElementGuid>ce4d9d83-b125-46c0-9eb8-e2d1925a4509</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;f3c71575-ec3b-555f-84ad-fd491c561afa&quot;)/a[@class=&quot;nav-link parent-link mb-0&quot;]</value>
+      <webElementGuid>e8798cd7-9934-45c1-b0bd-bbd2f3d9e5d7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='f3c71575-ec3b-555f-84ad-fd491c561afa']/a</value>
+      <webElementGuid>42fe5217-54e8-4df7-aa21-791340320ec9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign Out'])[1]/following::a[2]</value>
+      <webElementGuid>73a941a7-732e-4f93-83b1-95d068f22a89</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Change Password'])[1]/following::a[2]</value>
+      <webElementGuid>2051fbba-74f3-4a7e-b0c5-5d87636a7926</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[2]/preceding::a[17]</value>
+      <webElementGuid>76b0f93d-49e7-4a0e-99ba-84b5931d749a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Travel Information'])[1]/preceding::a[17]</value>
+      <webElementGuid>513422aa-3429-41ae-9771-18c4d72cd66a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'javscript:void(0)')]</value>
+      <webElementGuid>a4ea1120-de0a-42b7-935c-714969026326</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//aside/div/nav/ul/li[2]/a</value>
+      <webElementGuid>49028297-b2bd-4654-9909-2868a37e5c77</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'javscript:void(0)' and (text() = 'Corporate Management' or . = 'Corporate Management')]</value>
+      <webElementGuid>6cf5be06-3dd7-4db2-a377-b47e9c78f1a2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

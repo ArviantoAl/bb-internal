@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>editButton</name>
+   <tag></tag>
+   <elementGuidId>10c455af-e879-410d-bc38-d81b998f39fb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>.primary[data-placement='bottom']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.primary[data-placement='bottom']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

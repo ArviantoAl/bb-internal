@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SD_TC.020 Create New _field name already exists in the same year up and low case</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bb149464-8031-4c14-a858-706c9d303e0d</testCaseGuid>
+</TestCaseEntity>

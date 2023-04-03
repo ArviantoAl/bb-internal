@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SD_TC.002 Search _by Name, up and low case character</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b6576b8b-6c62-4edc-bf9d-c5ae3fbac936</testCaseGuid>
+</TestCaseEntity>
