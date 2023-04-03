@@ -26,20 +26,6 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>4bf7e476-9db7-4d1e-9f38-baa8927eb475</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SCENARIO/Setup and Configuration/Special Dates/SD_TC.004 Search _by end date</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>5647deb8-f28f-40e5-8619-a92508405734</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SCENARIO/Setup and Configuration/Special Dates/SD_TC.005 Search _with text more than 256 character</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>20d7f040-66ba-4731-a28c-732bccd6a3b1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

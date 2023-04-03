@@ -16,20 +16,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.github.javafaker.Faker as Faker
-import org.openqa.selenium.WebElement as WebElement
-import com.kms.katalon.core.testobject.ConditionType as ConditionType
-
-public static String randomString(String chars, int length) {
-	Random rand = new Random();
-	StringBuilder sb = new StringBuilder();
-	for (int i=0; i<length; i++) {
-		sb.append(chars.charAt(rand.nextInt(chars.length())));
-	}
-	return sb.toString();
-}
-String chars = "abcdefghijklmnopqrstuvwxyz"
-String keyword = randomString(chars, 257)
 
 WebUI.callTestCase(findTestCase('login_scenario_manager'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -43,11 +29,17 @@ WebUI.click(findTestObject('Object Repository/corporate_airline_fare/breadcrumb'
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/special_dates/h1_title_sd'), 0)
 
+String new_xpath = "//tr[1]/td[4]"
+TestObject dynamicObject = new TestObject('dynamicObject').addProperty('xpath', ConditionType.EQUALS, new_xpath)
+String str = WebUI.getText(dynamicObject)
+
+String keyword = WebUI.getText(dynamicObject)
+
 WebUI.setText(findTestObject('Object Repository/special_dates/field_search_sd'), keyword)
 
-String value = WebUI.getText(findTestObject('Object Repository/special_dates/field_search_sd'))
+String keyword2 = WebUI.getText(dynamicObject)
 
-WebUI.verifyNotMatch(value, keyword, false)
+WebUI.verifyMatch(keyword2, keyword, false)
 
 WebUI.takeScreenshot()
 
