@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\User\\AppData\\Local\\Temp\\Katalon\\Test Cases\\SCENARIO\\Setup and Configuration\\Special Dates\\SD_TC.001 List Special Dates _verify all element\\20230403_135508\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\User\\AppData\\Local\\Temp\\Katalon\\Test Cases\\SCENARIO\\Setup and Configuration\\Special Dates\\SD_TC.003 Search _by start date\\20230403_190327\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/SCENARIO/Setup and Configuration/Special Dates/SD_TC.001 List Special Dates _verify all element', new TestCaseBinding('Test Cases/SCENARIO/Setup and Configuration/Special Dates/SD_TC.001 List Special Dates _verify all element',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/SCENARIO/Setup and Configuration/Special Dates/SD_TC.003 Search _by start date', new TestCaseBinding('Test Cases/SCENARIO/Setup and Configuration/Special Dates/SD_TC.003 Search _by start date',[:]), FailureHandling.STOP_ON_FAILURE , false)
     
