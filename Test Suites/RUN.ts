@@ -26,20 +26,6 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>20d7f040-66ba-4731-a28c-732bccd6a3b1</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SCENARIO/Setup and Configuration/Special Dates/SD_TC.006 Search _data does not exist</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>950333cc-479a-4095-b9f3-c57e9f27b861</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SCENARIO/Setup and Configuration/Special Dates/SD_TC.007 Filter</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>3927bf19-44c4-4311-ab05-671e2bddd2d9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

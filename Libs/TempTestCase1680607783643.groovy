@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\User\\AppData\\Local\\Temp\\Katalon\\20230118_175013\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\User\\AppData\\Local\\Temp\\Katalon\\Test Cases\\SCENARIO\\Setup and Configuration\\Special Dates\\SD_TC.007 Filter\\20230404_182943\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('', new TestCaseBinding('',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/SCENARIO/Setup and Configuration/Special Dates/SD_TC.007 Filter', new TestCaseBinding('Test Cases/SCENARIO/Setup and Configuration/Special Dates/SD_TC.007 Filter',[:]), FailureHandling.STOP_ON_FAILURE , false)
     

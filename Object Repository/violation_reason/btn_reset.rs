@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_reset</name>
+   <tag></tag>
+   <elementGuidId>e476ed3d-98e7-4c49-a5dd-67b9313aebd4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.btn-table-action-reset</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

@@ -33,7 +33,7 @@ WebUI.click(findTestObject('Object Repository/corporate_airline_fare/breadcrumb'
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/special_dates/h1_title_sd'), 0)
 
-WebUI.click(findTestObject('Object Repository/violation_reason/btn_create_new'))
+WebUI.click(findTestObject('null'))
 
 WebUI.verifyElementHasAttribute(findTestObject('Object Repository/special_dates/btn_save'), 'disabled', 0)
 

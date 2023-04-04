@@ -62,7 +62,7 @@ String str = WebUI.getText(dynamicObject)
 String[] strOut = str.split(" ");
 String year = strOut[2];
 
-WebUI.click(findTestObject('Object Repository/violation_reason/btn_create_new'))
+WebUI.click(findTestObject('null'))
 
 WebUI.click(findTestObject('Object Repository/special_dates/field_start_date'))
 

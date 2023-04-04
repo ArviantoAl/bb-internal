@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>table_list_vr</name>
+   <tag></tag>
+   <elementGuidId>f462986b-938b-47c7-b3d7-f35d686c8446</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.table</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

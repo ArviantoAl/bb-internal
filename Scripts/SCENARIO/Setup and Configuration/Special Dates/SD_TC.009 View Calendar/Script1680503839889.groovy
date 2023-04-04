@@ -53,7 +53,7 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/special_dates/h1_ti
 
 WebUI.click(findTestObject('Object Repository/special_dates/linkText_calendar'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/violation_reason/h1_title'), 'Calendar')
+WebUI.verifyElementText(findTestObject('null'), 'Calendar')
 
 WebUI.takeScreenshot()
 

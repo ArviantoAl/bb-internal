@@ -16,11 +16,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.github.javafaker.Faker as Faker
-import org.openqa.selenium.WebElement as WebElement
-import com.kms.katalon.core.testobject.ConditionType as ConditionType
 
-WebUI.callTestCase(findTestCase('login_scenario_manager'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('login_internal'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/corporate_airline_fare/dashboardBtn'))
 
@@ -34,8 +31,10 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/special_dates/h1_ti
 
 WebUI.setText(findTestObject('Object Repository/special_dates/field_search_sd'), 'badak')
 
-String new_xpath = "//td[@class='dataTables_empty']"
+String new_xpath = '//td[@class=\'dataTables_empty\']'
+
 TestObject dynamicObject = new TestObject('dynamicObject').addProperty('xpath', ConditionType.EQUALS, new_xpath)
+
 String str = WebUI.getText(dynamicObject)
 
 WebUI.verifyElementPresent(dynamicObject, 0)

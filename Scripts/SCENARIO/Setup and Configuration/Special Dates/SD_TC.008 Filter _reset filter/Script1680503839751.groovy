@@ -51,9 +51,9 @@ WebUI.click(findTestObject('Object Repository/corporate_airline_fare/breadcrumb'
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/special_dates/h1_title_sd'), 0)
 
-WebUI.click(findTestObject('Object Repository/violation_reason/link_text_adv_opt'))
+WebUI.click(findTestObject('null'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/violation_reason/card_filter'), 0)
+WebUI.verifyElementPresent(findTestObject('null'), 0)
 
 WebUI.click(findTestObject('Object Repository/special_dates/filter_year_sd'))
 
@@ -64,7 +64,7 @@ WebUI.click(findTestObject('Object Repository/special_dates/item_select_sd2'))
 String value = WebUI.verifyTextPresent('No Special Date found', false)
 
 //remove filter
-WebUI.click(findTestObject('Object Repository/violation_reason/btn_reset'))
+WebUI.click(findTestObject('null'))
 
 WebUI.delay(4)
 
