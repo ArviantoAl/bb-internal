@@ -25,5 +25,5 @@ WebUI.setText(findTestObject('Object Repository/Log_In/input_Email_username'), G
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Log_In/input_Password'), GlobalVariable.pass_corporate_encrypted)
 
-WebUI.click(findTestObject('Object Repository/Log_In/login_button'))
+WebUI.click(findTestObject('Log_In/btn_sign_in'))
 
