@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>IJT_TC.008 Filter _with inactive status</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c3252cfc-fb93-465d-a48c-5f47660c8341</testCaseGuid>
+</TestCaseEntity>

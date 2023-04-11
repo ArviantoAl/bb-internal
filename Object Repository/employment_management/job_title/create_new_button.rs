@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>create_new_button</name>
+   <tag></tag>
+   <elementGuidId>b5823959-ee12-4d06-8d02-b2ef8e54001d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>.btn-warning</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.btn-warning</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

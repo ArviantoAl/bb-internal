@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>IJT_TC.002 Search Job Title _by Code, up and low case character</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3ac3ffc9-2c8c-4a71-83ac-0201bdc9ba0d</testCaseGuid>
+</TestCaseEntity>

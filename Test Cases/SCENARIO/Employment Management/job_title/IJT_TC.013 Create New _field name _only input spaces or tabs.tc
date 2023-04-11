@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>IJT_TC.013 Create New _field name _only input spaces or tabs</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>df419e36-a14c-4fa9-9091-f15f396bbf2e</testCaseGuid>
+</TestCaseEntity>

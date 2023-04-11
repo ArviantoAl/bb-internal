@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>IJT_TC.001 List Job Title _verify all element</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fc9bc87c-275e-4047-9796-21aea7399c82</testCaseGuid>
+</TestCaseEntity>
