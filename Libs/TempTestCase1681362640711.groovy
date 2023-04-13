@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\User\\AppData\\Local\\Temp\\Katalon\\Test Cases\\SCENARIO\\Setup and Configuration\\Special Dates\\SD_TC.020 Create New _field name already exists in the same year up and low case\\20230405_120639\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\User\\AppData\\Local\\Temp\\Katalon\\Test Cases\\SCENARIO\\Employment Management\\job_title\\IJT_TC.002 Search Job Title _by Code, up and low case character\\20230413_121040\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/SCENARIO/Setup and Configuration/Special Dates/SD_TC.020 Create New _field name already exists in the same year up and low case', new TestCaseBinding('Test Cases/SCENARIO/Setup and Configuration/Special Dates/SD_TC.020 Create New _field name already exists in the same year up and low case',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/SCENARIO/Employment Management/job_title/IJT_TC.002 Search Job Title _by Code, up and low case character', new TestCaseBinding('Test Cases/SCENARIO/Employment Management/job_title/IJT_TC.002 Search Job Title _by Code, up and low case character',[:]), FailureHandling.STOP_ON_FAILURE , false)
     

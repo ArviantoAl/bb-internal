@@ -51,7 +51,7 @@ WebUI.click(findTestObject('Object Repository/corporate_airline_fare/breadcrumb'
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/special_dates/h1_title_sd'), 0)
 
-WebUI.click(findTestObject('Object Repository/special_dates/linkText_calendar'))
+WebUI.click(findTestObject('special_dates/linkText_calendar'))
 
 WebUI.verifyElementText(findTestObject('null'), 'Calendar')
 

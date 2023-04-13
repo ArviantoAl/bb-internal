@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>subMenu_special_dates</name>
+   <name>sd_name_error</name>
    <tag></tag>
-   <elementGuidId>9b7da99c-5507-4831-a39e-9143b4653450</elementGuidId>
+   <elementGuidId>c3913d91-ec6d-484d-be1b-0eeb70de76dd</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[.='Special Dates']</value>
+         <value>//span[@id='special_date_name-error']</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

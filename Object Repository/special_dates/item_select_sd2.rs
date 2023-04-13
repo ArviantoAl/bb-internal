@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>subMenu_special_dates</name>
+   <name>item_select_sd2</name>
    <tag></tag>
-   <elementGuidId>9b7da99c-5507-4831-a39e-9143b4653450</elementGuidId>
+   <elementGuidId>08c4f056-d0bf-48a5-a880-ef09cd1a1787</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[.='Special Dates']</value>
+         <value>//div[.='2013']</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

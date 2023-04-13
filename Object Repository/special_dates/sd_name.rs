@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>subMenu_special_dates - Copy</name>
+   <name>sd_name</name>
    <tag></tag>
-   <elementGuidId>62179bb5-8dea-4e17-99d3-75e60f1d4a89</elementGuidId>
+   <elementGuidId>effd5494-2eee-4027-b241-769c59d1d50e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[.='Special Dates']</value>
+         <value>//input[@name='special_date_name']</value>
       </entry>
       <entry>
          <key>BASIC</key>

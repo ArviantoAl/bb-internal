@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 //import com.github.javafaker.Faker as Faker
 import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.testobject.ConditionType as ConditionType
-import java.util.*;
+import java.util.*
 
 WebUI.callTestCase(findTestCase('login_internal'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -33,7 +33,7 @@ WebUI.click(findTestObject('Object Repository/corporate_airline_fare/breadcrumb'
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/special_dates/h1_title_sd'), 0)
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('special_dates/Occurs on the same date every year CB'))
 
 WebUI.setText(findTestObject('Object Repository/special_dates/field_name'), '')
 
@@ -44,3 +44,4 @@ WebUI.click(findTestObject('Object Repository/special_dates/btn_save'))
 WebUI.takeScreenshot()
 
 WebUI.closeBrowser()
+

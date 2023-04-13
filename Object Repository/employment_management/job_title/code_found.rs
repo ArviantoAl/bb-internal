@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//td[contains(.,'6666')]</value>
+         <value>//td[contains(.,'AAbb')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

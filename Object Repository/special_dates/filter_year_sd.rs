@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>subMenu_special_dates</name>
+   <name>filter_year_sd</name>
    <tag></tag>
-   <elementGuidId>9b7da99c-5507-4831-a39e-9143b4653450</elementGuidId>
+   <elementGuidId>74b4ef6a-faf5-43e4-be47-09fa103c6831</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[.='Special Dates']</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#react-select-2-input</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>

@@ -59,7 +59,7 @@ println(year)
 
 WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/special_dates/field_start_date'))
+WebUI.click(findTestObject('special_dates/field_start_date'))
 
 WebUI.click(findTestObject('Object Repository/special_dates/start_date_locator'))
 
