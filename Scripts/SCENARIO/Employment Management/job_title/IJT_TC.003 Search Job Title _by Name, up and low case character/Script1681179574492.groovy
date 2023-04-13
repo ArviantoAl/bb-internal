@@ -19,13 +19,15 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('internal_login'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.maximizeWindow()
+
 WebUI.click(findTestObject('Object Repository/corporate_airline_fare/dashboardBtn'))
 
 WebUI.click(findTestObject('employment_management/job_title/employment_management_sub_menu'))
 
 WebUI.click(findTestObject('employment_management/job_title/job_title_sub_menu'))
 
-WebUI.setText(findTestObject('job_title/formSearchJobTitle'), 'Automation')
+WebUI.setText(findTestObject('job_title/formSearchJobTitle'), 'Auto')
 
 Thread.sleep(2000)
 
