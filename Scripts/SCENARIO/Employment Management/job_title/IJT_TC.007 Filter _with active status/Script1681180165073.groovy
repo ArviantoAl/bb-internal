@@ -17,14 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('internal_login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('login_internal'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/corporate_airline_fare/dashboardBtn'))
 
 WebUI.click(findTestObject('employment_management/job_title/employment_management_sub_menu'))
 
 WebUI.click(findTestObject('employment_management/job_title/job_title_sub_menu'))
-
 
 WebUI.click(findTestObject('job_title/AdvancedOptions'), FailureHandling.STOP_ON_FAILURE)
 
@@ -41,3 +40,4 @@ WebUI.verifyElementVisible(findTestObject('employment_management/job_title/activ
 WebUI.takeScreenshot()
 
 WebUI.closeBrowser()
+

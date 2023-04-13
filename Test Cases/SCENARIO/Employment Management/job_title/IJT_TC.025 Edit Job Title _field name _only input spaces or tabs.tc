@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>IJT_TC.025 Edit Job Title _field name _only input spaces or tabs</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fafbf739-ce81-4e0e-b98b-a2f8103fb49d</testCaseGuid>
+</TestCaseEntity>

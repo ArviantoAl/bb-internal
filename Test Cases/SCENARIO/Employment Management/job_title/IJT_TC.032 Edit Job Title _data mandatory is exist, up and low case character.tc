@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>IJT_TC.032 Edit Job Title _data mandatory is exist, up and low case character</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b23db866-ab06-4020-946c-76709ac67a65</testCaseGuid>
+</TestCaseEntity>

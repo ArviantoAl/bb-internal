@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('internal_login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('login_internal'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/corporate_airline_fare/dashboardBtn'))
 
@@ -31,7 +31,7 @@ String chars = '1234567890'
 
 String code = randomString(chars, 3)
 
-WebUI.setText(findTestObject('employment_management/job_title/job_title_name_form'), 'Automation ' +code)
+WebUI.setText(findTestObject('employment_management/job_title/job_title_name_form'), 'Automation ' + code)
 
 WebUI.setText(findTestObject('employment_management/job_title/job_title_code_form'), '1')
 

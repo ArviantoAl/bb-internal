@@ -25,13 +25,29 @@ WebUI.click(findTestObject('employment_management/job_title/employment_managemen
 
 WebUI.click(findTestObject('employment_management/job_title/job_title_sub_menu'))
 
-WebUI.setText(findTestObject('job_title/formSearchJobTitle'), 'Data Tidak ada')
+WebUI.click(findTestObject('employment_management/job_title/breadcrumb'))
+
+WebUI.setText(findTestObject('job_title/formSearchJobTitle'), 'Automation 9')
 
 Thread.sleep(2000)
 
-WebUI.verifyElementPresent(findTestObject('employment_management/job_title/data_not_found'), 0)
+WebUI.click(findTestObject('employment_management/job_title/edit_button'))
+
+WebUI.click(findTestObject('employment_management/job_title/CANCEL_button'))
 
 WebUI.takeScreenshot()
 
 WebUI.closeBrowser()
+
+static String randomString(String chars, int length) {
+    Random rand = new Random()
+
+    StringBuilder sb = new StringBuilder()
+
+    for (int i = 0; i < length; i++) {
+        sb.append(chars.charAt(rand.nextInt(chars.length())))
+    }
+    
+    return sb.toString()
+}
 

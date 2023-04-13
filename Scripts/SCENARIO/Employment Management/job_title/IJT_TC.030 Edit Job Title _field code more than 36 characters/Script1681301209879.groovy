@@ -25,13 +25,39 @@ WebUI.click(findTestObject('employment_management/job_title/employment_managemen
 
 WebUI.click(findTestObject('employment_management/job_title/job_title_sub_menu'))
 
-WebUI.setText(findTestObject('job_title/formSearchJobTitle'), 'Data Tidak ada')
+WebUI.click(findTestObject('employment_management/job_title/breadcrumb'))
+
+WebUI.setText(findTestObject('job_title/formSearchJobTitle'), 'Automation')
 
 Thread.sleep(2000)
 
-WebUI.verifyElementPresent(findTestObject('employment_management/job_title/data_not_found'), 0)
+WebUI.click(findTestObject('employment_management/job_title/edit_button'))
+
+String chars = '1234567890'
+
+String code = randomString(chars, 40)
+
+WebUI.sendKeys(findTestObject('employment_management/job_title/job_title_code_form'), Keys.chord(Keys.COMMAND, 'a'))
+
+WebUI.sendKeys(findTestObject('employment_management/job_title/job_title_code_form'), Keys.chord(Keys.BACK_SPACE))
+
+WebUI.setText(findTestObject('employment_management/job_title/job_title_code_form'), code)
+
+String value = WebUI.getAttribute(findTestObject('employment_management/job_title/job_title_code_form'), 'value')
 
 WebUI.takeScreenshot()
 
 WebUI.closeBrowser()
+
+static String randomString(String chars, int length) {
+    Random rand = new Random()
+
+    StringBuilder sb = new StringBuilder()
+
+    for (int i = 0; i < length; i++) {
+        sb.append(chars.charAt(rand.nextInt(chars.length())))
+    }
+    
+    return sb.toString()
+}
 

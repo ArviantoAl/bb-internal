@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('internal_login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('login_internal'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/corporate_airline_fare/dashboardBtn'))
 
@@ -25,18 +25,9 @@ WebUI.click(findTestObject('employment_management/job_title/employment_managemen
 
 WebUI.click(findTestObject('employment_management/job_title/job_title_sub_menu'))
 
-public static String randomString(String chars, int length) {
-	Random rand = new Random();
-	StringBuilder sb = new StringBuilder();
-	for (int i=0; i<length; i++) {
-		sb.append(chars.charAt(rand.nextInt(chars.length())));
-	}
-	return sb.toString();
-}
-String chars = "1234567890"
+String chars = '1234567890'
+
 String code = randomString(chars, 300)
-
-
 
 WebUI.setText(findTestObject('job_title/formSearchJobTitle'), code)
 
@@ -47,4 +38,16 @@ String value = WebUI.getAttribute(findTestObject('job_title/formSearchJobTitle')
 WebUI.takeScreenshot()
 
 WebUI.closeBrowser()
+
+static String randomString(String chars, int length) {
+    Random rand = new Random()
+
+    StringBuilder sb = new StringBuilder()
+
+    for (int i = 0; i < length; i++) {
+        sb.append(chars.charAt(rand.nextInt(chars.length())))
+    }
+    
+    return sb.toString()
+}
 
