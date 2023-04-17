@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>IJT_TC.040 Delete Job Title _cancel delete</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2244b149-9680-4560-9c44-ab8040d0c406</testCaseGuid>
+</TestCaseEntity>
