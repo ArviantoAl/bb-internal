@@ -43,7 +43,7 @@
       <guid>2e8b8d99-b76c-456b-9f76-37a140ce3373</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SCENARIO/Employment Management/job_title/IJT_TC.005 Search Job Title _with text more than 256 character</testCaseId>
+      <testCaseId>Test Cases/SCENARIO/Employment Management/job_title/IJT_TC.005X Search Job Title _with text more than 256 character</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

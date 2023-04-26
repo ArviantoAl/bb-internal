@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Activate</name>
+   <tag></tag>
+   <elementGuidId>203b5dcc-04e0-484e-b911-08de038b659a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@role = 'tooltip' and (text() = 'Activate' or . = 'Activate')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[(text() = 'Deactivate')]</value>
+      <webElementGuid>1749456d-8316-4250-9ede-917f29ed74f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>tooltip</value>
+      <webElementGuid>69d00b77-4d6b-4bea-814c-59d692db234f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Activate</value>
+      <webElementGuid>358a81bd-b56a-476c-8c62-9667ac761808</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

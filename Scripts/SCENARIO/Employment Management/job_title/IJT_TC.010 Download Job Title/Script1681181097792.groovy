@@ -25,9 +25,14 @@ WebUI.click(findTestObject('employment_management/job_title/employment_managemen
 
 WebUI.click(findTestObject('employment_management/job_title/job_title_sub_menu'))
 
+WebUI.mouseOver(findTestObject('employment_management/job_title/download_button'))
+
+//WebUI.verifyElementText(findTestObject('Tooltips/Click to download'), 'Click to download')
 WebUI.click(findTestObject('employment_management/job_title/download_button'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.takeScreenshot()
+
+WebUI.delay(7)
 
 WebUI.closeBrowser()
 
