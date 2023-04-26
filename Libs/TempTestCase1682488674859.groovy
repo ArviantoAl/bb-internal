@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('/var/folders/42/2nyljlbs3_xgnbn2cwh6_c6h0000gn/T/Katalon/Test Cases/SCENARIO/Employment Management/job_title/IJT_TC.007 Filter _with active status/20230411_093137/execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\User\\AppData\\Local\\Temp\\Katalon\\Test Cases\\SCENARIO\\Employment Management\\job_title\\IJT_TC.001 List Job Title _verify all element\\20230426_125754\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/SCENARIO/Employment Management/job_title/IJT_TC.007 Filter _with active status', new TestCaseBinding('Test Cases/SCENARIO/Employment Management/job_title/IJT_TC.007 Filter _with active status',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/SCENARIO/Employment Management/job_title/IJT_TC.001 List Job Title _verify all element', new TestCaseBinding('Test Cases/SCENARIO/Employment Management/job_title/IJT_TC.001 List Job Title _verify all element',[:]), FailureHandling.STOP_ON_FAILURE , false)
     

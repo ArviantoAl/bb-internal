@@ -29,9 +29,13 @@ WebUI.click(findTestObject('job_title/AdvancedOptions'), FailureHandling.STOP_ON
 
 Thread.sleep(2000)
 
-WebUI.click(findTestObject('job_title/resetButton'))
+WebUI.click(findTestObject('employment_management/job_title/arrow_down'))
 
 WebUI.click(findTestObject('job_title/statusActive'))
+
+WebUI.verifyElementVisible(findTestObject('employment_management/job_title/active_status_found'))
+
+WebUI.click(findTestObject('job_title/resetButton'))
 
 Thread.sleep(2000)
 
