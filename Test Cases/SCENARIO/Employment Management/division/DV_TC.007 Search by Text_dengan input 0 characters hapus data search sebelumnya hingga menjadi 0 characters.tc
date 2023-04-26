@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DV_TC.007 Search by Text_dengan input 0 characters hapus data search sebelumnya hingga menjadi 0 characters</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f55ef1b7-188b-4299-8ec6-1824f3241359</testCaseGuid>
+</TestCaseEntity>
