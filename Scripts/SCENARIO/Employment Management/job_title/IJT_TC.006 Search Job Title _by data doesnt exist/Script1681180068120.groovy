@@ -31,6 +31,8 @@ Thread.sleep(2000)
 
 WebUI.verifyElementPresent(findTestObject('employment_management/job_title/data_not_found'), 0)
 
+WebUI.verifyElementText(findTestObject('employment_management/job_title/data_not_found'), 'No job title found')
+
 WebUI.takeScreenshot()
 
 WebUI.closeBrowser()
