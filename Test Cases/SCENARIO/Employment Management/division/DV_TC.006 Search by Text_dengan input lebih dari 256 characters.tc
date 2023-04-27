@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DV_TC.006 Search by Text_dengan input lebih dari 256 characters</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>203c4de7-1b6c-4cee-a136-583bb4b94502</testCaseGuid>
+</TestCaseEntity>
