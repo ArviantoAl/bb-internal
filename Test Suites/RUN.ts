@@ -113,7 +113,7 @@
       <guid>f3c80a0d-edae-4f59-bb5f-d0dc19e9a6f7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SCENARIO/Employment Management/job_title/IJT_TC.015 Create New _field name _more than 256 characters</testCaseId>
+      <testCaseId>Test Cases/SCENARIO/Employment Management/job_title/IJT_TC.015a Create New _field name 256 characters</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -134,7 +134,7 @@
       <guid>f00b2bdb-b187-4068-bc79-7c706cbb165b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SCENARIO/Employment Management/job_title/IJT_TC.018 Create New _field code _more than 36 characters</testCaseId>
+      <testCaseId>Test Cases/SCENARIO/Employment Management/job_title/IJT_TC.018a Create New _field code 36 characters</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
