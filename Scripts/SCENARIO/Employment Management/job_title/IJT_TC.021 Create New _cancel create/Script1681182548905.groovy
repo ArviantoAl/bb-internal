@@ -29,6 +29,8 @@ WebUI.click(findTestObject('employment_management/job_title/create_new_button'))
 
 WebUI.click(findTestObject('employment_management/job_title/CANCEL_button'))
 
+WebUI.delay(3)
+
 WebUI.takeScreenshot()
 
 WebUI.closeBrowser()

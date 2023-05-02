@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\User\\AppData\\Local\\Temp\\Katalon\\Test Cases\\SCENARIO\\Employment Management\\job_title\\IJT_TC.018a Create New _field code 36 characters\\20230427_093318\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\User\\AppData\\Local\\Temp\\Katalon\\Test Cases\\SCENARIO\\Employment Management\\job_title\\IJT_TC.040 Delete Job Title _cancel delete\\20230502_123754\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/SCENARIO/Employment Management/job_title/IJT_TC.018a Create New _field code 36 characters', new TestCaseBinding('Test Cases/SCENARIO/Employment Management/job_title/IJT_TC.018a Create New _field code 36 characters',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/SCENARIO/Employment Management/job_title/IJT_TC.040 Delete Job Title _cancel delete', new TestCaseBinding('Test Cases/SCENARIO/Employment Management/job_title/IJT_TC.040 Delete Job Title _cancel delete',[:]), FailureHandling.STOP_ON_FAILURE , false)
     

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>IJT_TC.015b Create New _field name _more than 256 characters</name>
+   <name>IJT_TC.015bX Create New _field name _more than 256 characters</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>3905aec4-265e-484f-8f77-7406a78ae367</testCaseGuid>

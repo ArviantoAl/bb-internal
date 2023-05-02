@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>delete_message</name>
+   <name>delete_button_confirmation</name>
    <tag></tag>
-   <elementGuidId>6e0344e4-82a6-4c65-a6cb-e5f393f18772</elementGuidId>
+   <elementGuidId>28c8acac-23ad-417a-99d4-e26a4254bca4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//span[contains(.,'has been successfully deleted.')]</value>
+         <value>//*[@class=&quot;btn btn-danger&quot; and (text() = 'Delete')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

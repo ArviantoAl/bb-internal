@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>IJT_TC.018b Create New _field code _more than 36 characters</name>
+   <name>IJT_TC.018bX Create New _field code _more than 36 characters</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>d12d6d15-f1ba-425a-ab68-e500f82fc886</testCaseGuid>

@@ -27,17 +27,41 @@ WebUI.click(findTestObject('employment_management/job_title/job_title_sub_menu')
 
 WebUI.click(findTestObject('employment_management/job_title/breadcrumb'))
 
-WebUI.setText(findTestObject('job_title/formSearchJobTitle'), 'Automation 9')
+'Proses Create'
+WebUI.click(findTestObject('employment_management/job_title/create_new_button'))
+
+WebUI.setText(findTestObject('employment_management/job_title/job_title_name_form'), 'Automation For Delete')
+
+WebUI.setText(findTestObject('employment_management/job_title/job_title_code_form'), 'AFD')
+
+WebUI.click(findTestObject('employment_management/job_title/SAVE_button'))
+
+WebUI.verifyElementPresent(findTestObject('employment_management/job_title/success_message_created'), 0)
+
+Thread.sleep(2000)
+
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('job_title/button_OK'))
+
+'Proses Delete'
+WebUI.setText(findTestObject('job_title/formSearchJobTitle'), 'Automation For Delete')
 
 Thread.sleep(2000)
 
 WebUI.click(findTestObject('employment_management/job_title/delete_button'))
 
-WebUI.click(findTestObject('employment_management/job_title/click_delete'))
+WebUI.click(findTestObject('employment_management/job_title/delete_message_confirmation'))
 
-WebUI.verifyElementPresent(findTestObject('employment_management/job_title/delete_message'), 0)
+WebUI.click(findTestObject('employment_management/job_title/delete_button_confirmation'))
+
+WebUI.verifyElementPresent(findTestObject('employment_management/job_title/delete_message_success'), 0)
 
 WebUI.takeScreenshot()
+
+Thread.sleep(2000)
+
+WebUI.click(findTestObject('job_title/button_OK'))
 
 WebUI.closeBrowser()
 

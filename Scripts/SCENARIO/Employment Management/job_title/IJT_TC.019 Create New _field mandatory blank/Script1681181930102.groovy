@@ -27,29 +27,23 @@ WebUI.click(findTestObject('employment_management/job_title/job_title_sub_menu')
 
 WebUI.click(findTestObject('employment_management/job_title/create_new_button'))
 
-String chars = '1234567890'
+//String chars = '1234567890'
+//String code = randomString(chars, 3)
+//WebUI.setText(findTestObject('employment_management/job_title/job_title_name_form'), 'Automation ' + code)
+//WebUI.sendKeys(findTestObject('employment_management/job_title/job_title_name_form'), Keys.chord(Keys.COMMAND, 'a'))
+//WebUI.sendKeys(findTestObject('employment_management/job_title/job_title_name_form'), Keys.chord(Keys.BACK_SPACE))
+//WebUI.setText(findTestObject('employment_management/job_title/job_title_code_form'), code)
+//WebUI.sendKeys(findTestObject('employment_management/job_title/job_title_code_form'), Keys.chord(Keys.COMMAND, 'a'))
+//WebUI.sendKeys(findTestObject('employment_management/job_title/job_title_code_form'), Keys.chord(Keys.BACK_SPACE))
+WebUI.verifyElementClickable(findTestObject('employment_management/job_title/CANCEL_button'))
 
-String code = randomString(chars, 3)
-
-WebUI.setText(findTestObject('employment_management/job_title/job_title_name_form'), 'Automation ' + code)
-
-WebUI.sendKeys(findTestObject('employment_management/job_title/job_title_name_form'), Keys.chord(Keys.COMMAND, 'a'))
-
-WebUI.sendKeys(findTestObject('employment_management/job_title/job_title_name_form'), Keys.chord(Keys.BACK_SPACE))
-
-WebUI.setText(findTestObject('employment_management/job_title/job_title_code_form'), code)
-
-WebUI.sendKeys(findTestObject('employment_management/job_title/job_title_code_form'), Keys.chord(Keys.COMMAND, 'a'))
-
-WebUI.sendKeys(findTestObject('employment_management/job_title/job_title_code_form'), Keys.chord(Keys.BACK_SPACE))
+WebUI.verifyElementClickable(findTestObject('employment_management/job_title/SAVE_button'))
 
 WebUI.verifyElementPresent(findTestObject('employment_management/job_title/code_required'), 0)
 
 WebUI.verifyElementPresent(findTestObject('employment_management/job_title/name_required'), 0)
 
-WebUI.takeScreenshot()
-
-WebUI.closeBrowser()
+WebUI.takeScreenshot() //WebUI.closeBrowser()
 
 static String randomString(String chars, int length) {
     Random rand = new Random()

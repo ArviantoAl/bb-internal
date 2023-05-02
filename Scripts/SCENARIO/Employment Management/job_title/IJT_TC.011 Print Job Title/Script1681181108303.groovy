@@ -25,9 +25,19 @@ WebUI.click(findTestObject('employment_management/job_title/employment_managemen
 
 WebUI.click(findTestObject('employment_management/job_title/job_title_sub_menu'))
 
+WebUI.mouseOver(findTestObject('employment_management/job_title/print_button'))
+
+WebUI.verifyElementPresent(findTestObject('Tooltips/Click to print'), 0)
+
 WebUI.click(findTestObject('employment_management/job_title/print_button'), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.switchToFrame(findTestObject('null'), 0)
+
+WebUI.click(findTestObject('null'))
+
 WebUI.takeScreenshot()
+
+WebUI.delay(7)
 
 WebUI.closeBrowser()
 

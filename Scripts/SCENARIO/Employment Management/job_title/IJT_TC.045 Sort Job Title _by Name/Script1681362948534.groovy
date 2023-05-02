@@ -35,5 +35,5 @@ WebUI.verifyElementPresent(findTestObject('employment_management/job_title/name_
 
 WebUI.takeScreenshot()
 
-WebUI.closeBrowser()
+//WebUI.closeBrowser()
 
