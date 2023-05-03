@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ME_PE_TC.05 Search Master Employee _by Mobile Number, up and low case caracter</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b9c77556-e7f8-494d-ab76-3f201676e85e</testCaseGuid>
+</TestCaseEntity>

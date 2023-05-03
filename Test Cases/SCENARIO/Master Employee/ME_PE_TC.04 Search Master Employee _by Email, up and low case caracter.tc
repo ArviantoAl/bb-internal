@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ME_PE_TC.04 Search Master Employee _by Email, up and low case caracter</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a8543318-90b3-4bb7-8bb9-cf56fcf12c83</testCaseGuid>
+</TestCaseEntity>

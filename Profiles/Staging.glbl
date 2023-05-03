@@ -29,4 +29,9 @@
       <initValue>'VlTNMqXNBmwuIj8hL0vFZw=='</initValue>
       <name>pass_corporate_encrypted</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'hargblus@gmail.com'</initValue>
+      <name>user_internal</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
