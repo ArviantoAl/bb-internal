@@ -16,6 +16,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.WebElement as WebElement
+import com.kms.katalon.core.testobject.ConditionType as ConditionType
+import java.util.*
 
 WebUI.callTestCase(findTestCase('login_internal'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -27,10 +30,29 @@ WebUI.click(findTestObject('employment_management/division/sub_menu_division'))
 
 WebUI.click(findTestObject('employment_management/division/breadcrumb_division'))
 
-WebUI.verifyElementPresent(findTestObject('employment_management/division/header_division'), 0)
+WebUI.click(findTestObject('violation_reason/btn_create_new'))
 
-WebUI.verifyElementPresent(findTestObject('employment_management/division/header_division'), 0)
+String chars = 'QWERTYUIOPASDFGHJKLZXCVBNM'
+
+String code = randomString(chars, 300)
+
+WebUI.setText(findTestObject('employment_management/division/name_division'), code)
+
+String value = WebUI.getAttribute(findTestObject('employment_management/division/name_division'), 'value')
 
 WebUI.takeScreenshot()
 
 WebUI.closeBrowser()
+
+static String randomString(String chars, int length) {
+    Random rand = new Random()
+
+    StringBuilder sb = new StringBuilder()
+
+    for (int i = 0; i < length; i++) {
+        sb.append(chars.charAt(rand.nextInt(chars.length())))
+    }
+    
+    return sb.toString()
+}
+

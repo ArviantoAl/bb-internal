@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DV_TC.052 Create New_Division Name_exists</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fd80ff8c-2ee4-4322-9b4e-361f935fe90b</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DV_TC.037 Table lebih dari 10 Data</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>106a078d-049a-4ad1-a045-446c72201a92</testCaseGuid>
+</TestCaseEntity>

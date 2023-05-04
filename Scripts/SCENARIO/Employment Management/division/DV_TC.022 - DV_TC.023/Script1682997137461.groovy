@@ -27,10 +27,13 @@ WebUI.click(findTestObject('employment_management/division/sub_menu_division'))
 
 WebUI.click(findTestObject('employment_management/division/breadcrumb_division'))
 
-WebUI.verifyElementPresent(findTestObject('employment_management/division/header_division'), 0)
+WebUI.mouseOver(findTestObject('employment_management/job_title/create_new_button'))
 
-WebUI.verifyElementPresent(findTestObject('employment_management/division/header_division'), 0)
+WebUI.click(findTestObject('corporate_airline_fare/create_new_button'))
+
+WebUI.verifyElementPresent(findTestObject('employment_management/division/header_create_new'), 0)
 
 WebUI.takeScreenshot()
 
 WebUI.closeBrowser()
+

@@ -16,6 +16,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.WebElement as WebElement
+import com.kms.katalon.core.testobject.ConditionType as ConditionType
+import java.util.*
 
 WebUI.callTestCase(findTestCase('login_internal'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -27,10 +30,32 @@ WebUI.click(findTestObject('employment_management/division/sub_menu_division'))
 
 WebUI.click(findTestObject('employment_management/division/breadcrumb_division'))
 
-WebUI.verifyElementPresent(findTestObject('employment_management/division/header_division'), 0)
+TestObject selectorType = new TestObject()
+selectorType.addProperty('css', ConditionType.EQUALS, ".page-link")
 
-WebUI.verifyElementPresent(findTestObject('employment_management/division/header_division'), 0)
+List<WebElement> typeList = WebUI.findWebElements(selectorType, 30)
+int size = typeList.size()
+
+TestObject selectorType2 = new TestObject()
+selectorType2.addProperty('xpath', ConditionType.EQUALS, "//li[@class='paginate_button page-item next disabled']")
+
+if(WebUI.verifyElementNotPresent(selectorType2, 1, FailureHandling.OPTIONAL)) {
+	for(int i = 1; i <= size-2; i++) {
+		String new_xpath = "//a[@data-dt-idx='$i']"
+		TestObject dynamicObject = new TestObject('dynamicObject').addProperty('xpath', ConditionType.EQUALS, new_xpath)
+		WebUI.click(dynamicObject)
+		String num = WebUI.getText(findTestObject('Object Repository/special_dates/pagination_active'))
+		String page = i
+		WebUI.verifyMatch(num, page, false)
+	}
+}
+else {
+	String numPage = WebUI.getText(findTestObject('Object Repository/special_dates/pagination_active'))
+	
+	WebUI.verifyMatch(numPage, '1', false)
+}
 
 WebUI.takeScreenshot()
 
 WebUI.closeBrowser()
+

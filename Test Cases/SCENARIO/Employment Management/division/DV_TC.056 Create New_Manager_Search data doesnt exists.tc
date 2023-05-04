@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DV_TC.056 Create New_Manager_Search data doesnt exists</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bfce04a2-d4a4-4762-ae52-3ca2484ef568</testCaseGuid>
+</TestCaseEntity>
