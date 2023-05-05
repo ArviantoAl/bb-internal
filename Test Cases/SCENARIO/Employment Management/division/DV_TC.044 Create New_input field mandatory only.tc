@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DV_TC.044 Create New_input field mandatory only</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>192c6bba-d57c-457c-9602-33b354d9d76f</testCaseGuid>
+</TestCaseEntity>

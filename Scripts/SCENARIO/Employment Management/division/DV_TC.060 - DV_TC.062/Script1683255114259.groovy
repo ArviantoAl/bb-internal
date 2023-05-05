@@ -16,6 +16,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.WebElement as WebElement
+import com.kms.katalon.core.testobject.ConditionType as ConditionType
+import java.util.*
 
 WebUI.callTestCase(findTestCase('login_internal'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -27,10 +30,15 @@ WebUI.click(findTestObject('employment_management/division/sub_menu_division'))
 
 WebUI.click(findTestObject('employment_management/division/breadcrumb_division'))
 
-WebUI.verifyElementPresent(findTestObject('employment_management/division/header_division'), 0)
+WebUI.click(findTestObject('employment_management/job_title/edit_button'))
 
-WebUI.verifyElementPresent(findTestObject('employment_management/division/header_division'), 0)
+WebUI.verifyElementPresent(findTestObject('employment_management/division/header_edit'), 0)
+
+WebUI.verifyElementPresent(findTestObject('employment_management/division/breadcrumb_edit'), 0)
+
+WebUI.click(findTestObject('employment_management/division/breadcrumb_edit'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.takeScreenshot()
 
 WebUI.closeBrowser()
+
