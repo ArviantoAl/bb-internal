@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ME_PE_TC.27 Edit Master Employee_data email is exist, up and low case caracter</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>394f2e10-59e8-4a13-b5d6-8cf48a9bc6c0</testCaseGuid>
+</TestCaseEntity>
