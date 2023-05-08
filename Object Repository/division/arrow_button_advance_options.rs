@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>arrow_button_advance_options</name>
+   <tag></tag>
+   <elementGuidId>13740681-653c-49a0-8f72-c5626480b030</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>[src='/static/media/arrow-down.fba85c66.svg']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[src='/static/media/arrow-down.fba85c66.svg']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>
