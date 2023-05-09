@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DV_TC.008 Search by Text_Search by Division Name (upper and lower case)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d57a33e8-d05e-4fae-9533-4868758f35ee</testCaseGuid>
+</TestCaseEntity>
