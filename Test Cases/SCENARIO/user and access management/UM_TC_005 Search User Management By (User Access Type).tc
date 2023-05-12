@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>UM_TC_005 Search User Management By (User Access Type)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ed797505-990e-48a4-87dc-83805c05d66b</testCaseGuid>
+</TestCaseEntity>

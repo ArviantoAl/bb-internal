@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>UM_TC_006 Search User Management By (Last Login)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d4eb85db-09ca-406f-8e31-11974513c2ea</testCaseGuid>
+</TestCaseEntity>

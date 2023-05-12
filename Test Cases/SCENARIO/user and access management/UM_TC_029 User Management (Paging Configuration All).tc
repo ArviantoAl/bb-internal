@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>UM_TC_029 User Management (Paging Configuration All)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0e0d241f-7c86-4e01-890a-bfdd9982b018</testCaseGuid>
+</TestCaseEntity>
