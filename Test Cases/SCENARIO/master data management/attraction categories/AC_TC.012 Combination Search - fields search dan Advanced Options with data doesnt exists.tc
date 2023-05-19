@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AC_TC.012 Combination Search - fields search dan Advanced Options with data doesnt exists</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9ec60372-cb88-4b27-9a5b-26e56a485695</testCaseGuid>
+</TestCaseEntity>
