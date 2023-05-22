@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DV_TC.048 Create New_Division Name_Kosong</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>af4c2d68-4b14-42b6-a620-ecffb42b9c1e</testCaseGuid>
+</TestCaseEntity>

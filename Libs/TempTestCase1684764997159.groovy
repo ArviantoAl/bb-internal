@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('/var/folders/b4/_n21h8qn0t57hh095f0ccnkm0000gp/T/Katalon/Test Cases/SCENARIO/Setup and Configuration/division/DV_TC.028 Status_on hover Status/20230512_191438/execution.properties')
+RunConfiguration.setExecutionSettingFile('/var/folders/b4/_n21h8qn0t57hh095f0ccnkm0000gp/T/Katalon/Test Cases/SCENARIO/Setup and Configuration/division/DV_TC.024 Edit_on hover Edit/20230522_211637/execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/SCENARIO/Setup and Configuration/division/DV_TC.028 Status_on hover Status', new TestCaseBinding('Test Cases/SCENARIO/Setup and Configuration/division/DV_TC.028 Status_on hover Status',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/SCENARIO/Setup and Configuration/division/DV_TC.024 Edit_on hover Edit', new TestCaseBinding('Test Cases/SCENARIO/Setup and Configuration/division/DV_TC.024 Edit_on hover Edit',[:]), FailureHandling.STOP_ON_FAILURE , false)
     

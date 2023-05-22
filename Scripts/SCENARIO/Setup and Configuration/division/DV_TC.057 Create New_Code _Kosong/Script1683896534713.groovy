@@ -18,6 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.testobject.ConditionType as ConditionType
+import java.util.*
 
 WebUI.callTestCase(findTestCase('login_internal2'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -27,14 +28,31 @@ WebUI.click(findTestObject('Object Repository/job_title/setupAndConfigurationBtn
 
 WebUI.click(findTestObject('division/subMenuDivision'))
 
-WebUI.verifyElementPresent(findTestObject('division/headerDivision'), 0)
+WebUI.click(findTestObject('employment_management/division/breadcrumb_division'))
 
-WebUI.click(findTestObject('corporate_airline_fare/breadcrumb'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('violation_reason/btn_create_new'))
 
-WebUI.click(findTestObject('division/delete_ai'))
+String chars = 'QWERTYUIOPASDFGHJKLZXCVBNM'
 
-WebUI.verifyElementPresent(findTestObject('division/modal_confirmation'), 0)
+String code = randomString(chars, 256)
+
+WebUI.click(findTestObject('employment_management/division/SAVE_button'))
+
+WebUI.verifyElementPresent(findTestObject('employment_management/division/code_required'), 0)
 
 WebUI.takeScreenshot()
 
 WebUI.closeBrowser()
+
+static String randomString(String chars, int length) {
+    Random rand = new Random()
+
+    StringBuilder sb = new StringBuilder()
+
+    for (int i = 0; i < length; i++) {
+        sb.append(chars.charAt(rand.nextInt(chars.length())))
+    }
+    
+    return sb.toString()
+}
+
