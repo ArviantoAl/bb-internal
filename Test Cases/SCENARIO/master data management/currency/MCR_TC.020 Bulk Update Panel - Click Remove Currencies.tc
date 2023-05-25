@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MCR_TC.020 Bulk Update Panel - Click Remove Currencies</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6d72ba59-8081-4345-8157-96a483af7d3d</testCaseGuid>
+</TestCaseEntity>

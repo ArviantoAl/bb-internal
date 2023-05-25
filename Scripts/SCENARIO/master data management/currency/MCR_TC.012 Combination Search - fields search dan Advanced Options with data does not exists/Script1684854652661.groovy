@@ -16,17 +16,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-
-public static String randomString(String chars, int length) {
-	Random rand = new Random();
-	StringBuilder sb = new StringBuilder();
-	for (int i=0; i<length; i++) {
-		sb.append(chars.charAt(rand.nextInt(chars.length())));
-	}
-	return sb.toString();
-}
-String chars = "abcdefghijklmnopqrstuvwxyz"
-String keyword = randomString(chars, 256)
+import org.openqa.selenium.WebElement as WebElement
+import com.kms.katalon.core.testobject.ConditionType as ConditionType
 
 WebUI.callTestCase(findTestCase('login_internal'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -36,11 +27,20 @@ WebUI.click(findTestObject('master data management/attraction categories/master_
 
 WebUI.click(findTestObject('master data management/currency/currency_submenu'))
 
-WebUI.setText(findTestObject('master data management/currency/search_field'), keyword)
+WebUI.click(findTestObject('corporate_airline_fare/breadcrumb'), FailureHandling.STOP_ON_FAILURE)
 
-String actualText = WebUI.getAttribute(findTestObject('master data management/currency/search_field'), 'value')
+WebUI.click(findTestObject('master data management/currency/advanced_option'))
 
-WebUI.verifyMatch(actualText, keyword, false)
+WebUI.click(findTestObject('master data management/currency/dd_status'))
+
+WebUI.click(findTestObject('master data management/currency/select_active'))
+
+String new_xpath = "(//tr/td[2])[1]"
+TestObject dynamicObject = new TestObject('dynamicObject').addProperty('xpath', ConditionType.EQUALS, new_xpath)
+
+WebUI.setText(findTestObject('master data management/currency/search_field'), 'xjkd')
+
+WebUI.verifyElementNotPresent(dynamicObject, 0)
 
 WebUI.takeScreenshot()
 
