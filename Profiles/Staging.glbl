@@ -34,4 +34,9 @@
       <initValue>'hargblus@gmail.com'</initValue>
       <name>user_internal</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>file</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

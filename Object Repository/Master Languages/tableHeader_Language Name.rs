@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>tableHeader_Language Name</name>
+   <tag></tag>
+   <elementGuidId>cbe7fee0-d627-48ed-b930-050bb11ccf41</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-column-index = '2' and @aria-controls = 'DataTables_Table_0']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-column-index</name>
+      <type>Main</type>
+      <value>2</value>
+      <webElementGuid>8e8bcce3-05bd-4051-a653-2ea5cac96daa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-controls</name>
+      <type>Main</type>
+      <value>DataTables_Table_0</value>
+      <webElementGuid>ef4e48d9-c9ba-4ebe-a499-59475828aea4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>rowspan</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>5f4ff819-51e9-49fb-8901-bb2f6b50b177</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>colspan</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>4375453e-8d5f-4be0-8acb-85c944b65c6e</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
