@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MAC_TC.057 Create - Attraction Category Name with alphanumeric and special characters</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>378b5616-0a4f-4621-8ff6-239cd11b1043</testCaseGuid>
+</TestCaseEntity>
