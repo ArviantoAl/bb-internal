@@ -1,1 +1,8 @@
 /bin/
+/Libs/
+/.settings/
+/.classpath
+.svn/
+Reports/
+.prj
+.project
