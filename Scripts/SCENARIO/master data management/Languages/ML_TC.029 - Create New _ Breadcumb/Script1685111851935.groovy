@@ -35,7 +35,7 @@ WebUI.click(findTestObject('Object Repository/master data management/Languages/b
 
 WebUI.takeFullPageScreenshot()
 
-WebUI.click(findTestObject('Object Repository/master data management/Languages/breadcrumb', [('breadcrumb') :'Languages']))
+WebUI.click(findTestObject('Object Repository/master data management/Languages/breadcrumb_Language'))
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/master data management/Languages/main-header-title'))
 

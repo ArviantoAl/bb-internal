@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ML_TC.073 - Create New _ Translation Language native name with more than 256 character</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6128912d-5445-4282-bebb-7992adedaac9</testCaseGuid>
+</TestCaseEntity>

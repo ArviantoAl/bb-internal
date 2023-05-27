@@ -30,4 +30,6 @@ WebUI.click(findTestObject('Object Repository/master data management/Languages/b
 
 WebUI.setText(findTestObject('Object Repository/master data management/Languages/input_Language Native Name_language_native_name'), 's')
 
+WebUI.verifyElementNotPresent(findTestObject('Object Repository/master data management/Languages/language_native_name-error'), 0)
+
 WebUI.takeFullPageScreenshot()

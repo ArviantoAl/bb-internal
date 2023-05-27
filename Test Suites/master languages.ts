@@ -12,10 +12,10 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>9bb0d7c1-f4fb-44b5-98f9-7067ebe865af</testSuiteGuid>
    <testCaseLink>
-      <guid>d19189fd-9f08-406b-8c78-b53d3f438061</guid>
+      <guid>586b3afe-40cf-482f-be0b-439609ce6f2c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SCENARIO/master data management/Languages/ML_TC.013 - Print Countries Types</testCaseId>
+      <testCaseId>Test Cases/SCENARIO/master data management/Languages/ML_TC.077 - Create new _ save create</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

@@ -29,4 +29,6 @@ WebUI.click(findTestObject('Object Repository/master data management/Languages/b
 
 WebUI.setText(findTestObject('Object Repository/master data management/Languages/input_Language Alpha 3 Code_language_alpha_3_code'), 'af4')
 
+WebUI.verifyElementNotPresent(findTestObject('Object Repository/master data management/Languages/language_alpha_3_code-error'), 0)
+
 WebUI.takeFullPageScreenshot()

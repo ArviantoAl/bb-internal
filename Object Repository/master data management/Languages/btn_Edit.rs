@@ -6,11 +6,15 @@
    <elementGuidId>1550bee1-48e2-4ebb-84d1-d0eac8be39b4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//tbody[1]/tr[1]//img[@src='/static/media/edit.da9341c0.svg']</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//tbody[1]/tr[1]//img[@src='/static/media/edit.da9341c0.svg']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

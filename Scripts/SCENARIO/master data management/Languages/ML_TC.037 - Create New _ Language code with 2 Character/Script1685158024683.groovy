@@ -29,4 +29,6 @@ WebUI.click(findTestObject('Object Repository/master data management/Languages/b
 
 WebUI.setText(findTestObject('Object Repository/master data management/Languages/input_Language Code_language_code'), '12')
 
+WebUI.verifyElementNotPresent(findTestObject('Object Repository/master data management/Languages/language_code-error'), 0)
+
 WebUI.takeFullPageScreenshot()

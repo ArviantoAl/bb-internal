@@ -33,6 +33,6 @@ def language_native_name = RandomStringUtils.randomAlphanumeric(20)
 
 WebUI.setText(findTestObject('Object Repository/master data management/Languages/input_Language Native Name_language_native_name'), language_native_name )
 
-WebUI.verifyElementNotVisible(findTestObject('Object Repository/master data management/Languages/language_native_name-error'))
+WebUI.verifyElementNotPresent(findTestObject('Object Repository/master data management/Languages/language_native_name-error'), 0)
 
 WebUI.takeFullPageScreenshot()

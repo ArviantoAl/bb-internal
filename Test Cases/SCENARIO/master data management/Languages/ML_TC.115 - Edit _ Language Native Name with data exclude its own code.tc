@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ML_TC.115 - Edit _ Language Native Name with data exclude its own code</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>02832602-b967-4dc3-9b4b-bd4f69acb2cf</testCaseGuid>
+</TestCaseEntity>

@@ -27,6 +27,6 @@ WebUI.click(findTestObject('Object Repository/master data management/Languages/m
 
 WebUI.click(findTestObject('Object Repository/master data management/Languages/btn_Create New'))
 
-WebUI.setText(findTestObject('Object Repository/master data management/Languages/input_Language Name_language_name_fr'), null)
+WebUI.setText(findTestObject('Object Repository/master data management/Languages/input_Language Name_language_name_fr'), '\0')
 
 WebUI.takeFullPageScreenshot()

@@ -25,10 +25,12 @@ WebUI.click(findTestObject('master_employee/corporateManagementBtn'))
 
 WebUI.click(findTestObject('Object Repository/master data management/Languages/masterLanguagesSubMenu'))
 
-WebUI.click(findTestObject('Object Repository/master data management/Languages/btn_Create New'))
+WebUI.click(findTestObject('Object Repository/master data management/Languages/btn_Edit'))
 
-WebUI.setText(findTestObject('Object Repository/master data management/Languages/input_Language Name_language_name'), null)
+WebUI.setText(findTestObject('Object Repository/master data management/Languages/input_Language Name_language_name'), '\0')
 
-assert WebUI.verifyElementText(findTestObject('Object Repository/master data management/Languages/language_name-error'), 'Language Name is required')
+assert WebUI.verifyElementText(findTestObject('Object Repository/master data management/Languages/language_name-error'), 
+    'Language Name is required')
 
 WebUI.takeFullPageScreenshot()
+

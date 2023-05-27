@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ML_TC.106 - Edit _ Language Name with alphanumeric and special character</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dfc23c9a-9293-456b-84e1-6a003ef9dc82</testCaseGuid>
+</TestCaseEntity>

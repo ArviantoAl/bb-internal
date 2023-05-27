@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ML_TC.124 - Edit _ Translation Fee Type name with more than 256 character</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b3c286fd-36a2-41bb-8e5f-17fb0e4169b5</testCaseGuid>
+</TestCaseEntity>

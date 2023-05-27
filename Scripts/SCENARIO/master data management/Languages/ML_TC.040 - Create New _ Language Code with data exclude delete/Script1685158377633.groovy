@@ -17,3 +17,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('Test Cases/login_internal'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Repository/master_employee/dashboardBtn'))
+
+WebUI.click(findTestObject('master_employee/corporateManagementBtn'))
+
+WebUI.click(findTestObject('Object Repository/master data management/Languages/masterLanguagesSubMenu'))
+
+WebUI.click(findTestObject('Object Repository/master data management/Languages/btn_Create New'))
+
+WebUI.setText(findTestObject('Object Repository/master data management/Languages/input_Language Code_language_code'), null)

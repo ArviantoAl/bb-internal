@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ML_TC.108 - Edit _ Language Native Name with less than 1 Character</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aaee1636-f9ac-4971-9f49-bda0189cc56e</testCaseGuid>
+</TestCaseEntity>
