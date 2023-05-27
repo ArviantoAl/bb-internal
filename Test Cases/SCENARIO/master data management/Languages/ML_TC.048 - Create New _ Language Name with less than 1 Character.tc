@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ML_TC.048 - Create New _ Language Name with less than 1 Character</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>73419791-ab41-49c4-a193-a34f1911e20a</testCaseGuid>
+</TestCaseEntity>

@@ -40,6 +40,11 @@ Profile default : URL DEV</p>
      */
     public static Object user_internal
      
+    /**
+     * <p></p>
+     */
+    public static Object file
+     
 
     static {
         try {
@@ -53,6 +58,7 @@ Profile default : URL DEV</p>
             pass_corporate = selectedVariables['pass_corporate']
             pass_corporate_encrypted = selectedVariables['pass_corporate_encrypted']
             user_internal = selectedVariables['user_internal']
+            file = selectedVariables['file']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

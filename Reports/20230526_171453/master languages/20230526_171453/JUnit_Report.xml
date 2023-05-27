@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="master languages" time="20.833" tests="1" failures="0" errors="0">
+   <testsuite name="master languages" tests="1" failures="0" errors="0" time="20.833" skipped="0" timestamp="2023-05-26 17:15:03" hostname="fetty - fetty-code" id="Test Suites/master languages">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\fetty\\git\\bb-internal-katalon-new\\Reports\\20230526_171453\\master languages\\20230526_171453"/>
+         <property name="logFiles" value="C:\\Users\\fetty\\git\\bb-internal-katalon-new\\Reports\\20230526_171453\\master languages\\20230526_171453\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\fetty\\git\\bb-internal-katalon-new\\Reports\\20230526_171453\\master languages\\20230526_171453\\1685096123566.png"/>
+         <property name="hostName" value="fetty - fetty-code"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+         <property name="browser" value="Chrome 113.0.0.0"/>
+         <property name="hostAddress" value="10.11.2.43"/>
+         <property name="sessionId" value="8adaa81782ce51919cc915ae0152fbf7"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/SCENARIO/master data management/Languages/ML_TC.013 - Print Countries Types" time="20.421" classname="Test Cases/SCENARIO/master data management/Languages/ML_TC.013 - Print Countries Types" status="PASSED">
+         <system-out><![CDATA[2023-05-26 17:15:04 - [TEST_CASE][PASSED] - Test Cases/SCENARIO/master data management/Languages/ML_TC.013 - Print Countries Types: Test Cases/SCENARIO/master data management/Languages/ML_TC.013 - Print Countries Types
+
+2023-05-26 17:15:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/login_internal"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/login_internal' successfully
+
+2023-05-26 17:15:05 - [TEST_CASE][PASSED] - Test Cases/login_internal: Test Cases/login_internal
+
+2023-05-26 17:15:05 - [TEST_STEP][PASSED] - openBrowser(url_login): Browser is opened with url: 'https://bbstg.monstercode.net/auth/login'
+
+2023-05-26 17:15:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-26 17:15:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-26 17:15:14 - [MESSAGE][PASSED] - Browser is opened with url: 'https://bbstg.monstercode.net/auth/login'
+
+2023-05-26 17:15:14 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-05-26 17:15:14 - [MESSAGE][PASSED] - Current window maximized
+
+2023-05-26 17:15:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Log_In/input_Email_username"), user_corporate): Text 'coba.dilain@gmail.com' is set on object 'Object Repository/Log_In/input_Email_username'
+
+2023-05-26 17:15:15 - [MESSAGE][PASSED] - Text 'coba.dilain@gmail.com' is set on object 'Object Repository/Log_In/input_Email_username'
+
+2023-05-26 17:15:15 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Log_In/input_Password"), pass_corporate_encrypted): Text ****** has been set on object 'Object Repository/Log_In/input_Password'
+
+2023-05-26 17:15:16 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Log_In/input_Password'
+
+2023-05-26 17:15:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Log_In/btn_sign_in")): Object: 'Object Repository/Log_In/btn_sign_in' is clicked on
+
+2023-05-26 17:15:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Log_In/btn_sign_in' is clicked on
+
+2023-05-26 17:15:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/login_internal' successfully
+
+2023-05-26 17:15:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/master_employee/dashboardBtn")): Object: 'Object Repository/master_employee/dashboardBtn' is clicked on
+
+2023-05-26 17:15:19 - [MESSAGE][PASSED] - Object: 'Object Repository/master_employee/dashboardBtn' is clicked on
+
+2023-05-26 17:15:19 - [TEST_STEP][PASSED] - click(findTestObject("master_employee/corporateManagementBtn")): Object: 'Object Repository/master_employee/corporateManagementBtn' is clicked on
+
+2023-05-26 17:15:20 - [MESSAGE][PASSED] - Object: 'Object Repository/master_employee/corporateManagementBtn' is clicked on
+
+2023-05-26 17:15:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Languages/masterLanguagesSubMenu")): Object: 'Object Repository/Master Languages/masterLanguagesSubMenu' is clicked on
+
+2023-05-26 17:15:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Languages/masterLanguagesSubMenu' is clicked on
+
+2023-05-26 17:15:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Languages/input_Search")): Object: 'Object Repository/Master Languages/input_Search' is clicked on
+
+2023-05-26 17:15:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Languages/input_Search' is clicked on
+
+2023-05-26 17:15:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Languages/btn_Print")): Object: 'Object Repository/Master Languages/btn_Print' is clicked on
+
+2023-05-26 17:15:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Languages/btn_Print' is clicked on
+
+2023-05-26 17:15:22 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2023-05-26 17:15:23 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2023-05-26 17:15:23 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2023-05-26 17:15:24 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-05-26 17:15:24 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\fetty\\git\\bb-internal-katalon-new\\Reports\\20230526_171453\\master languages\\20230526_171453\\1685096123566.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-05-26 17:15:03 - [TEST_SUITE][PASSED] - master languages: Test Cases/SCENARIO/master data management/Languages/ML_TC.013 - Print Countries Types]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

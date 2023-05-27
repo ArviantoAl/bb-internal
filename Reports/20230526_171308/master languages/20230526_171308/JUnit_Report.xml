@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="master languages" time="17.659" tests="1" failures="0" errors="0">
+   <testsuite name="master languages" tests="1" failures="0" errors="0" time="17.659" skipped="0" timestamp="2023-05-26 17:13:18" hostname="fetty - fetty-code" id="Test Suites/master languages">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\fetty\\git\\bb-internal-katalon-new\\Reports\\20230526_171308\\master languages\\20230526_171308"/>
+         <property name="logFiles" value="C:\\Users\\fetty\\git\\bb-internal-katalon-new\\Reports\\20230526_171308\\master languages\\20230526_171308\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\fetty\\git\\bb-internal-katalon-new\\Reports\\20230526_171308\\master languages\\20230526_171308\\1685096014677.png"/>
+         <property name="hostName" value="fetty - fetty-code"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+         <property name="browser" value="Chrome 113.0.0.0"/>
+         <property name="hostAddress" value="10.11.2.43"/>
+         <property name="sessionId" value="8ee054d7653c17d1d010a0c93e104314"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/SCENARIO/master data management/Languages/ML_TC.012 - Download Countries Types" time="17.279" classname="Test Cases/SCENARIO/master data management/Languages/ML_TC.012 - Download Countries Types" status="PASSED">
+         <system-out><![CDATA[2023-05-26 17:13:19 - [TEST_CASE][PASSED] - Test Cases/SCENARIO/master data management/Languages/ML_TC.012 - Download Countries Types: Test Cases/SCENARIO/master data management/Languages/ML_TC.012 - Download Countries Types
+
+2023-05-26 17:13:20 - [TEST_STEP][PASSED] - setWebDriverPreferencesProperty("args", ["window-size=1920,1080"]): null
+
+2023-05-26 17:13:20 - [TEST_STEP][PASSED] - filePath = getProjectDir() + "/Download/": null
+
+2023-05-26 17:13:20 - [TEST_STEP][PASSED] - comment(filePath): C:/Users/fetty/git/bb-internal-katalon-new/Download/
+
+2023-05-26 17:13:20 - [MESSAGE][INFO] - C:/Users/fetty/git/bb-internal-katalon-new/Download/
+
+2023-05-26 17:13:20 - [TEST_STEP][PASSED] - path = filePath.replace("/", "\"): null
+
+2023-05-26 17:13:20 - [TEST_STEP][PASSED] - comment(path): C:\Users\fetty\git\bb-internal-katalon-new\Download\
+
+2023-05-26 17:13:20 - [MESSAGE][INFO] - C:\Users\fetty\git\bb-internal-katalon-new\Download\
+
+2023-05-26 17:13:20 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", chromeDriverPath): null
+
+2023-05-26 17:13:20 - [TEST_STEP][PASSED] - options = new org.openqa.selenium.chrome.ChromeOptions(): null
+
+2023-05-26 17:13:20 - [TEST_STEP][PASSED] - prefs = new java.util.HashMap(): null
+
+2023-05-26 17:13:20 - [TEST_STEP][PASSED] - prefs.put("download.default_directory", path): null
+
+2023-05-26 17:13:20 - [TEST_STEP][PASSED] - options.setExperimentalOption("prefs", prefs): null
+
+2023-05-26 17:13:20 - [TEST_STEP][PASSED] - driver = new org.openqa.selenium.chrome.ChromeDriver(options): null
+
+2023-05-26 17:13:23 - [TEST_STEP][PASSED] - changeWebDriver(driver): null
+
+2023-05-26 17:13:23 - [TEST_STEP][PASSED] - navigateToUrl(url_login): Navigate to 'https://bbstg.monstercode.net/auth/login' successfully
+
+2023-05-26 17:13:28 - [MESSAGE][PASSED] - Navigate to 'https://bbstg.monstercode.net/auth/login' successfully
+
+2023-05-26 17:13:28 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-05-26 17:13:28 - [MESSAGE][PASSED] - Current window maximized
+
+2023-05-26 17:13:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Log_In/input_Email_username"), user_corporate): Text 'coba.dilain@gmail.com' is set on object 'Object Repository/Log_In/input_Email_username'
+
+2023-05-26 17:13:29 - [MESSAGE][PASSED] - Text 'coba.dilain@gmail.com' is set on object 'Object Repository/Log_In/input_Email_username'
+
+2023-05-26 17:13:29 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Log_In/input_Password"), pass_corporate_encrypted): Text ****** has been set on object 'Object Repository/Log_In/input_Password'
+
+2023-05-26 17:13:29 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Log_In/input_Password'
+
+2023-05-26 17:13:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Log_In/btn_sign_in")): Object: 'Object Repository/Log_In/btn_sign_in' is clicked on
+
+2023-05-26 17:13:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Log_In/btn_sign_in' is clicked on
+
+2023-05-26 17:13:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/master_employee/dashboardBtn")): Object: 'Object Repository/master_employee/dashboardBtn' is clicked on
+
+2023-05-26 17:13:33 - [MESSAGE][PASSED] - Object: 'Object Repository/master_employee/dashboardBtn' is clicked on
+
+2023-05-26 17:13:33 - [TEST_STEP][PASSED] - click(findTestObject("master_employee/corporateManagementBtn")): Object: 'Object Repository/master_employee/corporateManagementBtn' is clicked on
+
+2023-05-26 17:13:33 - [MESSAGE][PASSED] - Object: 'Object Repository/master_employee/corporateManagementBtn' is clicked on
+
+2023-05-26 17:13:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Languages/masterLanguagesSubMenu")): Object: 'Object Repository/Master Languages/masterLanguagesSubMenu' is clicked on
+
+2023-05-26 17:13:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Languages/masterLanguagesSubMenu' is clicked on
+
+2023-05-26 17:13:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Languages/input_Search")): Object: 'Object Repository/Master Languages/input_Search' is clicked on
+
+2023-05-26 17:13:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Languages/input_Search' is clicked on
+
+2023-05-26 17:13:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Languages/btn_Download")): Object: 'Object Repository/Master Languages/btn_Download' is clicked on
+
+2023-05-26 17:13:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Languages/btn_Download' is clicked on
+
+2023-05-26 17:13:34 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2023-05-26 17:13:36 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-05-26 17:13:36 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\fetty\\git\\bb-internal-katalon-new\\Reports\\20230526_171308\\master languages\\20230526_171308\\1685096014677.png]]
+
+2023-05-26 17:13:36 - [TEST_STEP][PASSED] - dir = new java.io.File((com.kms.katalon.core.configuration.RunConfiguration.getProjectDir() + /Download/)): null
+
+2023-05-26 17:13:36 - [TEST_STEP][PASSED] - foundPending = false: null
+
+2023-05-26 17:13:36 - [TEST_STEP][PASSED] - files = dir.list(): null
+
+2023-05-26 17:13:36 - [TEST_STEP][PASSED] - for (String fileStr : files): null
+
+2023-05-26 17:13:36 - [TEST_STEP][PASSED] - pathfile = "Download/" + file: null
+
+2023-05-26 17:13:36 - [TEST_STEP][PASSED] - comment(pathfile): Download/
+
+2023-05-26 17:13:36 - [MESSAGE][INFO] - Download/
+
+2023-05-26 17:13:36 - [TEST_STEP][PASSED] - file = new java.io.File(pathfile): null
+
+2023-05-26 17:13:36 - [TEST_STEP][PASSED] - Files.deleteIfExists(Paths.get(pathfile)): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-05-26 17:13:18 - [TEST_SUITE][PASSED] - master languages: Test Cases/SCENARIO/master data management/Languages/ML_TC.012 - Download Countries Types]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>main-header-title</name>
+   <tag></tag>
+   <elementGuidId>635577d3-6df4-4b82-9954-158478ec1c87</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'main-header-title' and (text() = 'Languages' or . = 'Languages')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>main-header-title</value>
+      <webElementGuid>7ac77fc4-2364-4def-8f29-86d27465aa54</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Languages</value>
+      <webElementGuid>ec028c18-173f-4847-b9dd-e48499fe88f8</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
