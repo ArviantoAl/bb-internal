@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ML_TC.063 - Create New _ flag with Un-Supported image</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d71698e1-779d-46b2-8913-4ca8d26b6b26</testCaseGuid>
+</TestCaseEntity>

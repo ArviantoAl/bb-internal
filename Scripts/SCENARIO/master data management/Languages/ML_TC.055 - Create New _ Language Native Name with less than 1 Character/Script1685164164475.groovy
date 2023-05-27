@@ -14,9 +14,7 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import internal.GlobalVariable
-
-import org.apache.commons.lang.RandomStringUtils
+import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Test Cases/login_internal'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -29,12 +27,9 @@ WebUI.click(findTestObject('Object Repository/master data management/Languages/m
 
 WebUI.click(findTestObject('Object Repository/master data management/Languages/btn_Create New'))
 
-def language_name = RandomStringUtils.randomAlphanumeric(300)
+WebUI.sendKeys(findTestObject('Object Repository/master data management/Languages/input_Language Native Name_language_native_name'), Keys.chord(Keys.CONTROL, 'a', Keys.BACK_SPACE))
 
-WebUI.setText(findTestObject('Object Repository/master data management/Languages/input_Language Name_language_name'), language_name)
-
-def value = WebUI.getAttribute(findTestObject('Object Repository/master data management/Languages/input_Language Name_language_name'), 'value')
-
-assert value.length() <= 256
+assert WebUI.verifyElementText(findTestObject('Object Repository/master data management/Languages/language_name-error'), 'Language Name is required')
 
 WebUI.takeFullPageScreenshot()
+

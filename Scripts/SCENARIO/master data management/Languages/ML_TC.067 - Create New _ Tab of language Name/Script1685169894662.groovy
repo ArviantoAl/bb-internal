@@ -14,9 +14,7 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import internal.GlobalVariable
-
-import org.apache.commons.lang.RandomStringUtils
+import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Test Cases/login_internal'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -29,12 +27,16 @@ WebUI.click(findTestObject('Object Repository/master data management/Languages/m
 
 WebUI.click(findTestObject('Object Repository/master data management/Languages/btn_Create New'))
 
-def language_name = RandomStringUtils.randomAlphanumeric(300)
+WebUI.sendKeys(findTestObject('master data management/Languages/input_Language Name_language_name'), Keys.chord(Keys.TAB))
 
-WebUI.setText(findTestObject('Object Repository/master data management/Languages/input_Language Name_language_name'), language_name)
+WebUI.sendKeys(findTestObject('Object Repository/master data management/Languages/input_Language Native Name_language_native_name'), Keys.chord(Keys.TAB))
 
-def value = WebUI.getAttribute(findTestObject('Object Repository/master data management/Languages/input_Language Name_language_name'), 'value')
+WebUI.sendKeys(findTestObject('Object Repository/master data management/Languages/input_Language Code_language_code'), Keys.chord(Keys.TAB))
 
-assert value.length() <= 256
+WebUI.sendKeys(findTestObject('Object Repository/master data management/Languages/input_Language Alpha 3 Code_language_alpha_3_code'), Keys.chord(Keys.TAB))
+
+WebUI.sendKeys(findTestObject('Object Repository/master data management/Languages/input_Language Name_language_name_fr'), Keys.chord(Keys.TAB))
+
+WebUI.sendKeys(findTestObject('Object Repository/master data management/Languages/input_Language Native Name_language_native_name_fr'), Keys.chord(Keys.TAB))
 
 WebUI.takeFullPageScreenshot()

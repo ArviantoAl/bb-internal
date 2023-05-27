@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ML_TC.053 - Create New _ Language Name with data exclude delete</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cb3278d4-68f8-46d7-b7a2-ddb09e17aa61</testCaseGuid>
+</TestCaseEntity>

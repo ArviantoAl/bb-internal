@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ML_TC.055 - Create New _ Language Native Name with less than 1 Character</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fccf402b-d4ad-4415-a0f5-1b5022ddc4e5</testCaseGuid>
+</TestCaseEntity>

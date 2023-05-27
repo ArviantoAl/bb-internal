@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ML_TC.060 - Create New _ Language Native Name with data exclude delete</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>66122c39-d329-471d-9e2a-770ea930c098</testCaseGuid>
+</TestCaseEntity>

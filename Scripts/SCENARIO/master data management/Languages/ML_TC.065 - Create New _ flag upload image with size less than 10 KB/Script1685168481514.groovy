@@ -3,7 +3,8 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
-import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.checkpoint.Checkpoint
+import com.kms.katalon.core.configuration.RunConfiguration
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
@@ -14,9 +15,7 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import internal.GlobalVariable
-
-import org.apache.commons.lang.RandomStringUtils
+import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Test Cases/login_internal'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -29,12 +28,10 @@ WebUI.click(findTestObject('Object Repository/master data management/Languages/m
 
 WebUI.click(findTestObject('Object Repository/master data management/Languages/btn_Create New'))
 
-def language_name = RandomStringUtils.randomAlphanumeric(300)
+def projectDir = RunConfiguration.getProjectDir()
 
-WebUI.setText(findTestObject('Object Repository/master data management/Languages/input_Language Name_language_name'), language_name)
+def filePath = projectDir + '/Images/less than 10kb.png'
 
-def value = WebUI.getAttribute(findTestObject('Object Repository/master data management/Languages/input_Language Name_language_name'), 'value')
-
-assert value.length() <= 256
+WebUI.uploadFile(findTestObject('Object Repository/master data management/Languages/uploadFile'), filePath)
 
 WebUI.takeFullPageScreenshot()

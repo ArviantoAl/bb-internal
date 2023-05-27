@@ -29,12 +29,10 @@ WebUI.click(findTestObject('Object Repository/master data management/Languages/m
 
 WebUI.click(findTestObject('Object Repository/master data management/Languages/btn_Create New'))
 
-def language_name = RandomStringUtils.randomAlphanumeric(300)
+def language_name = RandomStringUtils.randomAlphanumeric(20)
 
-WebUI.setText(findTestObject('Object Repository/master data management/Languages/input_Language Name_language_name'), language_name)
+WebUI.setText(findTestObject('Object Repository/master data management/Languages/input_Language Name_language_name'), language_name )
 
-def value = WebUI.getAttribute(findTestObject('Object Repository/master data management/Languages/input_Language Name_language_name'), 'value')
-
-assert value.length() <= 256
+WebUI.verifyElementNotVisible(findTestObject('Object Repository/master data management/Languages/language_name-error'))
 
 WebUI.takeFullPageScreenshot()

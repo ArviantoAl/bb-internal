@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ML_TC.059 - Create New _ Language Native Name with data already exist</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ebaa474d-4840-4c0f-a599-3a32fcf56165</testCaseGuid>
+</TestCaseEntity>
