@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ML_TC.065 - Create New _ flag upload image with size less than 10 KB</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7c86db35-f33a-4530-9bc5-861a9bfa7532</testCaseGuid>
+</TestCaseEntity>

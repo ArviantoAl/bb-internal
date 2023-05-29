@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ML_TC.140 - Delete _ button delete (confirm delete)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d3b752c6-446d-403b-be3c-931536943b27</testCaseGuid>
+</TestCaseEntity>

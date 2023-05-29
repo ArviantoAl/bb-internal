@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ML_TC.120 - Edit _ flag upload image with size more than 10 KB</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f51aa610-c421-4c53-ab01-f24cb1af9818</testCaseGuid>
+</TestCaseEntity>

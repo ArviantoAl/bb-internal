@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ML_TC.036 - Create New _ Language Code with less than 2 Character</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b0bbc1cf-35b8-4158-a4a8-c8c41b077b03</testCaseGuid>
+</TestCaseEntity>
