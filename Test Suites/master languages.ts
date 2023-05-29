@@ -15,7 +15,7 @@
       <guid>586b3afe-40cf-482f-be0b-439609ce6f2c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SCENARIO/master data management/Languages/ML_TC.077 - Create new _ save create</testCaseId>
+      <testCaseId>Test Cases/SCENARIO/master data management/Languages/ML_TC.040 - Create New _ Language Code with data exclude delete</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

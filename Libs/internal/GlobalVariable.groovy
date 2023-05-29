@@ -45,6 +45,26 @@ Profile default : URL DEV</p>
      */
     public static Object file
      
+    /**
+     * <p></p>
+     */
+    public static Object languageCode
+     
+    /**
+     * <p></p>
+     */
+    public static Object language3AlphaCode
+     
+    /**
+     * <p></p>
+     */
+    public static Object languageName
+     
+    /**
+     * <p></p>
+     */
+    public static Object languageNativeName
+     
 
     static {
         try {
@@ -59,6 +79,10 @@ Profile default : URL DEV</p>
             pass_corporate_encrypted = selectedVariables['pass_corporate_encrypted']
             user_internal = selectedVariables['user_internal']
             file = selectedVariables['file']
+            languageCode = selectedVariables['languageCode']
+            language3AlphaCode = selectedVariables['language3AlphaCode']
+            languageName = selectedVariables['languageName']
+            languageNativeName = selectedVariables['languageNativeName']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

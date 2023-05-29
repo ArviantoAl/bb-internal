@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>tooltip</name>
+   <name>btn_Confirm Delete</name>
    <tag></tag>
-   <elementGuidId>df1c77d5-4b79-40f3-ac5f-55792ef69206</elementGuidId>
+   <elementGuidId>61bd32f9-36c6-45cf-acce-000e4b925c94</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@data-toggle = 'tooltip']</value>
+         <value>//*[@class = 'btn btn-danger']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,9 +15,9 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-toggle</name>
+      <name>class</name>
       <type>Main</type>
-      <value>tooltip</value>
-      <webElementGuid>a9d250be-ecbe-4e22-a75e-285280d08623</webElementGuid>
+      <value>btn btn-danger</value>
+      <webElementGuid>e221d26e-ca28-437e-bce0-292c03941700</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

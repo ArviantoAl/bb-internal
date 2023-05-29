@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>tooltip</name>
+   <name>infoConfirmDelete</name>
    <tag></tag>
-   <elementGuidId>df1c77d5-4b79-40f3-ac5f-55792ef69206</elementGuidId>
+   <elementGuidId>4082138c-7949-48ec-b9c1-3a61e63310e8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@data-toggle = 'tooltip']</value>
+         <value>//*[@class = 'bb-modal-wrap modal-body']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,9 +15,9 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-toggle</name>
+      <name>class</name>
       <type>Main</type>
-      <value>tooltip</value>
-      <webElementGuid>a9d250be-ecbe-4e22-a75e-285280d08623</webElementGuid>
+      <value>bb-modal-wrap modal-body</value>
+      <webElementGuid>1e776ec1-59e7-4f85-b571-beeef9b80894</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

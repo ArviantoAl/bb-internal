@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>tooltip</name>
+   <name>pop up</name>
    <tag></tag>
-   <elementGuidId>df1c77d5-4b79-40f3-ac5f-55792ef69206</elementGuidId>
+   <elementGuidId>b80a517b-1774-4815-8b2c-123cb8b8b78a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@data-toggle = 'tooltip']</value>
+         <value>//*[@class = 'modal-content']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,9 +15,9 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-toggle</name>
+      <name>class</name>
       <type>Main</type>
-      <value>tooltip</value>
-      <webElementGuid>a9d250be-ecbe-4e22-a75e-285280d08623</webElementGuid>
+      <value>modal-content</value>
+      <webElementGuid>2ff607cd-9c90-44ce-befc-82d1ee8e8305</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
