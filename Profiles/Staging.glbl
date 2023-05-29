@@ -59,4 +59,14 @@
       <initValue>''</initValue>
       <name>languageNativeName</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>zoneName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>zoneCode</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
