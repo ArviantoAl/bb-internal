@@ -19,7 +19,7 @@ import internal.GlobalVariable
 import org.apache.commons.lang.RandomStringUtils
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Test Cases/login_internal'), [:], FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase('Test Cases/login_internal'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/master_employee/dashboardBtn'))
 

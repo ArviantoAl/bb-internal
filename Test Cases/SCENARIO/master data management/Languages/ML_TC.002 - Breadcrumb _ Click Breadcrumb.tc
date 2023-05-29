@@ -1,16 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>[ Positive Case ]
-
-[Test Step]
-1. Menampilkan breadcumb &quot;Master Data Management > Language&quot;
-2. Click pada text &quot;Master Data Management&quot;
-3. Click pada text &quot;Language&quot;
-
-[Expected Result]
-
-1. tidak terjadi apa-apa ketika klik text &quot;Master Data Managemenr&quot;
-2. tidak terjadi aoa-apa ketika klik text &quot;Language&quot;</description>
+   <description></description>
    <name>ML_TC.002 - Breadcrumb _ Click Breadcrumb</name>
    <tag></tag>
    <comment></comment>

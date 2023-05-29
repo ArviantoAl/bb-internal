@@ -20,7 +20,7 @@ import org.openqa.selenium.By
 import org.openqa.selenium.WebElement
 import com.kms.katalon.core.webui.common.WebUiCommonHelper
 
-WebUI.callTestCase(findTestCase('Test Cases/login_internal'), [:], FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase('Test Cases/login_internal'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/master_employee/dashboardBtn'))
 
