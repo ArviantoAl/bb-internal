@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MZ_TC.066 - Edit - Zone Name - Empty this field</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e2696973-db80-492f-bb60-a203d2698c09</testCaseGuid>
+</TestCaseEntity>

@@ -17,8 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-
-//WebUI.callTestCase(findTestCase('Test Cases/login_internal'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Test Cases/SCENARIO/master data management/zones/MZ_TC.034 - Edit_Update All Fields'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/master_employee/dashboardBtn'))
 
@@ -26,10 +25,24 @@ WebUI.click(findTestObject('master_employee/corporateManagementBtn'))
 
 WebUI.click(findTestObject('Object Repository/master data management/zones/subMenu_Zones'))
 
-WebUI.mouseOver(findTestObject('Object Repository/master data management/zones/btn_Create New'))
+WebUI.setText(findTestObject('Object Repository/master data management/zones/input_Search'), GlobalVariable.zoneName)
 
-WebUI.click(findTestObject('Object Repository/master data management/zones/btn_Create New'))
+WebUI.click(findTestObject('Object Repository/master data management/zones/btn_Delete'))
 
-WebUI.verifyTextPresent('Create Zone', false)
+WebUI.takeFullPageScreenshot()
+
+String gettext = WebUI.getText(findTestObject('Object Repository/master data management/zones/infoConfirmDelete'))
+
+String [] split = gettext.split(" ");
+
+String zoneName = split[12]
+
+WebUI.comment(zoneName)
+
+WebUI.click(findTestObject('Object Repository/master data management/languages/btn_ConfirmCancel'))
+
+WebUI.setText(findTestObject('Object Repository/master data management/languages/input_Search'), zoneName)
+
+WebUI.verifyTextPresent(zoneName, false)
 
 WebUI.takeFullPageScreenshot()

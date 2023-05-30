@@ -17,7 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-
 //WebUI.callTestCase(findTestCase('Test Cases/login_internal'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/master_employee/dashboardBtn'))
@@ -26,10 +25,8 @@ WebUI.click(findTestObject('master_employee/corporateManagementBtn'))
 
 WebUI.click(findTestObject('Object Repository/master data management/zones/subMenu_Zones'))
 
-WebUI.mouseOver(findTestObject('Object Repository/master data management/zones/btn_Create New'))
+WebUI.click(findTestObject('Object Repository/master data management/zones/input_Search'))
 
-WebUI.click(findTestObject('Object Repository/master data management/zones/btn_Create New'))
-
-WebUI.verifyTextPresent('Create Zone', false)
+WebUI.click(findTestObject('Object Repository/master data management/zones/pagination_next'))
 
 WebUI.takeFullPageScreenshot()

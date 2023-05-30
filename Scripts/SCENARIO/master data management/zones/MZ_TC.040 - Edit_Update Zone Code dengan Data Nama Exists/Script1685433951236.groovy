@@ -17,8 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-
-//WebUI.callTestCase(findTestCase('Test Cases/login_internal'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Test Cases/SCENARIO/master data management/zones/MZ_TC.022 - Create New_Input All Fields'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/master_employee/dashboardBtn'))
 
@@ -26,10 +25,20 @@ WebUI.click(findTestObject('master_employee/corporateManagementBtn'))
 
 WebUI.click(findTestObject('Object Repository/master data management/zones/subMenu_Zones'))
 
-WebUI.mouseOver(findTestObject('Object Repository/master data management/zones/btn_Create New'))
+WebUI.click(findTestObject('Object Repository/master data management/zones/btn_View'))
 
-WebUI.click(findTestObject('Object Repository/master data management/zones/btn_Create New'))
+value = WebUI.getAttribute(findTestObject('Object Repository/master data management/zones/error_Zone Code'), 'value')
 
-WebUI.verifyTextPresent('Create Zone', false)
+WebUI.click(findTestObject('Object Repository/master data management/zones/btn_Back'))
+
+WebUI.setText(findTestObject('Object Repository/master data management/zones/input_Search'), GlobalVariable.zoneName)
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Object Repository/master data management/zones/btn_Edit'))
+
+WebUI.setText(findTestObject('Object Repository/master data management/zones/error_Zone Code'), value)
+
+WebUI.verifyElementText(findTestObject('Object Repository/master data management/zones/error_Zone Code'), 'Code already exists')
 
 WebUI.takeFullPageScreenshot()

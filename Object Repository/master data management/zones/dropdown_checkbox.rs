@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>pagination_next</name>
+   <name>dropdown_checkbox</name>
    <tag></tag>
-   <elementGuidId>f5fe294a-a9e4-47df-b960-cb4886c54b64</elementGuidId>
+   <elementGuidId>be62d1ab-c3c1-4b92-ba0d-a5e62f9a65ed</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//li[@class='paginate_button page-item next']/a[@href='#']</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
-         <value>//li[@id = 'DataTables_Table_0_next']</value>
+         <value>//*[@type = 'button' and @class = 'btn btn-default textButtonSave bdgreen dropdown-toggle btn-table-action-dropdown py-2']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -19,17 +15,17 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>type</name>
       <type>Main</type>
-      <value>DataTables_Table_0_next</value>
-      <webElementGuid>4d61ca7e-9ce3-4d17-8591-3e48f77ff72f</webElementGuid>
+      <value>button</value>
+      <webElementGuid>340ca2fe-1b0a-46ed-8dfe-1e25e868763b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>tag</name>
+      <name>class</name>
       <type>Main</type>
-      <value>li</value>
-      <webElementGuid>98a0fbca-c606-42fe-b246-6c96c8c66772</webElementGuid>
+      <value>btn btn-default textButtonSave bdgreen dropdown-toggle btn-table-action-dropdown py-2</value>
+      <webElementGuid>17d497e9-c358-434d-a1f1-b282a1e90fd6</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

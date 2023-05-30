@@ -15,10 +15,10 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 import org.openqa.selenium.Keys as Keys
 
-
-//WebUI.callTestCase(findTestCase('Test Cases/login_internal'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Test Cases/login_internal'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/master_employee/dashboardBtn'))
 
@@ -26,10 +26,24 @@ WebUI.click(findTestObject('master_employee/corporateManagementBtn'))
 
 WebUI.click(findTestObject('Object Repository/master data management/zones/subMenu_Zones'))
 
-WebUI.mouseOver(findTestObject('Object Repository/master data management/zones/btn_Create New'))
+//WebUI.setText(findTestObject('Object Repository/master data management/zones/input_Search'), GlobalVariable.zoneName)
+//
+//WebUI.delay(3)
+WebUI.click(findTestObject('Object Repository/master data management/zones/btn_Edit'))
 
-WebUI.click(findTestObject('Object Repository/master data management/zones/btn_Create New'))
+WebUI.sendKeys(findTestObject('Object Repository/master data management/zones/input_Zone Name'), Keys.chord(Keys.CONTROL, 'a', Keys.BACK_SPACE))
 
-WebUI.verifyTextPresent('Create Zone', false)
+WebUI.sendKeys(findTestObject('Object Repository/master data management/zones/input_Zone Code'), Keys.chord(Keys.CONTROL, 'a', Keys.BACK_SPACE))
+
+WebUI.click(findTestObject('Object Repository/master data management/zones/remove_Destination'))
+
+WebUI.click(findTestObject('Object Repository/master data management/zones/div_SAVE'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/master data management/zones/error_Zone Name'), 'Zone Name is required')
+
+WebUI.verifyElementText(findTestObject('Object Repository/master data management/zones/error_Destination'), 'Destination is required')
+
+WebUI.verifyElementText(findTestObject('Object Repository/master data management/zones/error_Zone Code'), 'Zone Code is required')
 
 WebUI.takeFullPageScreenshot()
+

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MZ_TC.041 - Edit_Update Zone Name dengan with exclude delete</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>be710ecb-263e-4ed4-81f2-764f01474db0</testCaseGuid>
+</TestCaseEntity>

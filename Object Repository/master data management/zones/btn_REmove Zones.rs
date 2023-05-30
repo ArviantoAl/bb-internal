@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>pagination_next</name>
+   <name>btn_Remove Zones</name>
    <tag></tag>
-   <elementGuidId>f5fe294a-a9e4-47df-b960-cb4886c54b64</elementGuidId>
+   <elementGuidId>1355aa41-55a1-42d7-8542-b23de9588639</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//li[@class='paginate_button page-item next']/a[@href='#']</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
-         <value>//li[@id = 'DataTables_Table_0_next']</value>
+         <value>//*[@type = 'button' and @class = 'btn btn-default textButtonSave bdgreen bg-dark-green p-2 ml-3']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -19,17 +15,17 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>type</name>
       <type>Main</type>
-      <value>DataTables_Table_0_next</value>
-      <webElementGuid>4d61ca7e-9ce3-4d17-8591-3e48f77ff72f</webElementGuid>
+      <value>button</value>
+      <webElementGuid>080d4b62-7443-4d11-96f2-a37dc716528e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>tag</name>
+      <name>class</name>
       <type>Main</type>
-      <value>li</value>
-      <webElementGuid>98a0fbca-c606-42fe-b246-6c96c8c66772</webElementGuid>
+      <value>btn btn-default textButtonSave bdgreen bg-dark-green p-2 ml-3</value>
+      <webElementGuid>4a52e0d8-d743-4719-82f4-ff3ce8135b9e</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

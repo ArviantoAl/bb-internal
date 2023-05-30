@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>language_code-error</name>
+   <name>error_Zone Code</name>
    <tag></tag>
-   <elementGuidId>96139c07-3ce0-4efe-8bc0-b4b92c59100e</elementGuidId>
+   <elementGuidId>d02d0e8f-55c7-4ffa-ba3f-7e300676700b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'language_code-error']</value>
+         <value>//*[@id = 'zone_code-error']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>language_code-error</value>
-      <webElementGuid>e893da82-cab1-4a2d-9cf8-fe2786e48ae2</webElementGuid>
+      <value>zone_code-error</value>
+      <webElementGuid>cf49a960-7738-40e4-8937-dac551efb8c2</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
