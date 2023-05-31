@@ -65,6 +65,16 @@ Profile default : URL DEV</p>
      */
     public static Object languageNativeName
      
+    /**
+     * <p></p>
+     */
+    public static Object zoneName
+     
+    /**
+     * <p></p>
+     */
+    public static Object zoneCode
+     
 
     static {
         try {
@@ -83,6 +93,8 @@ Profile default : URL DEV</p>
             language3AlphaCode = selectedVariables['language3AlphaCode']
             languageName = selectedVariables['languageName']
             languageNativeName = selectedVariables['languageNativeName']
+            zoneName = selectedVariables['zoneName']
+            zoneCode = selectedVariables['zoneCode']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

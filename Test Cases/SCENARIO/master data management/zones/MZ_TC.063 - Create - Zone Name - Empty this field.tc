@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MZ_TC.063 - Create - Zone Name - Empty this field</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c915557b-81e0-437d-8ece-aa46e827eac6</testCaseGuid>
+</TestCaseEntity>

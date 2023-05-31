@@ -22,42 +22,42 @@
       <guid>ff785a79-a7ee-4b42-b5ae-a2b393d3f609</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SCENARIO/master data management/Languages/ML_TC.001 - List Fee Type _ verify all element</testCaseId>
+      <testCaseId>Test Cases/SCENARIO/master data management/languages/ML_TC.001 - List Fee Type _ verify all element</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>86ef8dd8-9f32-4d76-88d8-6e10f06e69d0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SCENARIO/master data management/Languages/ML_TC.002 - Breadcrumb _ Click Breadcrumb</testCaseId>
+      <testCaseId>Test Cases/SCENARIO/master data management/languages/ML_TC.002 - Breadcrumb _ Click Breadcrumb</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>4f55f95e-2fef-40b1-9e21-0996884316d3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SCENARIO/master data management/Languages/ML_TC.003 - Search _ Click Icon Search</testCaseId>
+      <testCaseId>Test Cases/SCENARIO/master data management/languages/ML_TC.003 - Search _ Click Icon Search</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>535085c4-ac66-4759-8623-f58b1d9fb758</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SCENARIO/master data management/Languages/ML_TC.004 - Search _ 256 Characters</testCaseId>
+      <testCaseId>Test Cases/SCENARIO/master data management/languages/ML_TC.004 - Search _ 256 Characters</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>74df297e-247d-46c9-b7d1-f8efc567b4ba</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SCENARIO/master data management/Languages/ML_TC.005 - Search _ 0 Character</testCaseId>
+      <testCaseId>Test Cases/SCENARIO/master data management/languages/ML_TC.005 - Search _ 0 Character</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>9fc087ae-084b-422b-8456-a0e84ba64818</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SCENARIO/master data management/Languages/ML_TC.006 - Search _ More 256 Characters</testCaseId>
+      <testCaseId>Test Cases/SCENARIO/master data management/languages/ML_TC.006 - Search _ More 256 Characters</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
