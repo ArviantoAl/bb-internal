@@ -27,21 +27,11 @@ WebUI.click(findTestObject('Object Repository/corporate_airline_fare/dashboardBt
 
 WebUI.click(findTestObject('master data management/attraction categories/master_data_sbmenu'))
 
-WebUI.click(findTestObject('master data management/attraction categories/attraction_category_sbmenu'))
+WebUI.click(findTestObject('Aircrafts/Page_Bayu Buana - Aircrafts/Page_Bayu Buana - Dashboard/a_Aircraft'))
 
-WebUI.click(findTestObject('master data management/attraction categories/breadcrumb_dashboard'))
+WebUI.verifyElementPresent(findTestObject('Aircrafts/Page_Bayu Buana - Aircrafts/button_Create New'), 0)
 
-WebUI.click(findTestObject('user_management/advance_options'), FailureHandling.STOP_ON_FAILURE)
-
-Thread.sleep(2000)
-
-WebUI.click(findTestObject('user_management/choose_status'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('master_employee/statusInactive'))
-
-Thread.sleep(2000)
-
-WebUI.verifyElementVisible(findTestObject('master_employee/stateInactiveData'))
+WebUI.verifyElementText(findTestObject('Aircrafts/Page_Bayu Buana - Aircrafts/button_Create New'), 'Create New')
 
 WebUI.takeScreenshot()
 

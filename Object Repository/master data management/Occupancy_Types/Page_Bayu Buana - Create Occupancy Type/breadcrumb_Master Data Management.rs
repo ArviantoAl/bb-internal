@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>breadcrumb_Master Data Management</name>
+   <tag></tag>
+   <elementGuidId>ce0c4756-b890-446a-aa16-d7426f4b89a1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div/div/div/div/div/div/ol/li</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li.breadcrumb-overflow.breadcrumb-item</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>9864ad17-325c-4b70-85c5-a97de3fd58e2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>breadcrumb-overflow breadcrumb-item</value>
+      <webElementGuid>255dd2a4-7a46-487a-baa9-17b3d5ab6986</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Master Data Management</value>
+      <webElementGuid>b488405c-ccee-415e-8249-41d1c1e39226</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;content-wrapper&quot;]/div[@class=&quot;container-fluid pb-5&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;content-header&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xl&quot;]/div[@class=&quot;mb-2&quot;]/ol[@class=&quot;breadcrumb&quot;]/li[@class=&quot;breadcrumb-overflow breadcrumb-item&quot;]</value>
+      <webElementGuid>1074e089-75e6-41b2-a0b4-5d84643e094c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div/div/div/div/div/div/ol/li</value>
+      <webElementGuid>11b3f98d-e72e-4b60-90de-77dfbf415ea2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign Out'])[1]/following::li[64]</value>
+      <webElementGuid>a1483472-81c6-48ae-a20d-07ed1dded7f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Change Password'])[1]/following::li[64]</value>
+      <webElementGuid>4e73b6bb-4250-4a93-886e-0e74b4ead611</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create Occupancy Type'])[1]/preceding::li[2]</value>
+      <webElementGuid>479d8766-438a-4ae2-8a95-7a389edc51e7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ol/li</value>
+      <webElementGuid>3d015cbc-da95-4049-8d13-ed47cb1fb973</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'Master Data Management' or . = 'Master Data Management')]</value>
+      <webElementGuid>919874cd-e3e1-49fe-909d-ff01b00780fe</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

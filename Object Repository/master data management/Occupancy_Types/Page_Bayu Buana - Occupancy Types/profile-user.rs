@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>profile-user</name>
+   <tag></tag>
+   <elementGuidId>f7d42b21-034a-44e1-9eed-5c369a6a691c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/nav/ul[2]/li[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li.nav-item.dropdown</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>aa2de0e0-1b69-4ff3-98b3-949c788c18b9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>nav-item dropdown</value>
+      <webElementGuid>6185d0d4-3599-4c95-83ee-3ebea1c22ec5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Anggita Test Narasa Manager My Profile Change Password Sign Out</value>
+      <webElementGuid>815ad21d-5621-4b0d-9f07-62d81d966c1c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[1]/nav[@class=&quot;main-header navbar navbar-expand navbar-white navbar-light m-navbar-m&quot;]/ul[@class=&quot;navbar-nav ml-auto navbar-nav-right m-bb-nav&quot;]/li[@class=&quot;nav-item dropdown&quot;]</value>
+      <webElementGuid>08d0f061-a2d1-40e7-aafa-f49d9b67ecb7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/nav/ul[2]/li[3]</value>
+      <webElementGuid>0eb3e574-f240-41f2-bf8a-17084b1ee986</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ul[2]/li[3]</value>
+      <webElementGuid>19689d26-cbc4-4e91-84af-64893d12442b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = ' Anggita Test Narasa Manager My Profile Change Password Sign Out' or . = ' Anggita Test Narasa Manager My Profile Change Password Sign Out')]</value>
+      <webElementGuid>c1d5798d-e956-4199-9a3e-318387df21f1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

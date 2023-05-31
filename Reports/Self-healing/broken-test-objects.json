@@ -1,3 +1,84 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/master data management/Occupancy_Types/Page_Bayu Buana - Occupancy Types/div_Inactive",
+      "brokenLocator": "//div[@id\u003d\u0027react-select-3-option-2\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Active\u0027])[1]/following::div[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/master data management/Occupancy_Types/Page_Bayu Buana - Occupancy Types/div_Inactive_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/master data management/Occupancy_Types/Page_Bayu Buana - Occupancy Types/row_button",
+      "brokenLocator": "//div[@id\u003d\u0027DataTables_Table_1_length\u0027]/label",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Loading...\u0027])[1]/following::label[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/master data management/Occupancy_Types/Page_Bayu Buana - Occupancy Types/row_button_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/master data management/Occupancy_Types/Page_Bayu Buana - Occupancy Types/row_table",
+      "brokenLocator": ".custom-select",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Loading...\u0027])[1]/following::select[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/master data management/Occupancy_Types/Page_Bayu Buana - Occupancy Types/row_table_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/master data management/Occupancy_Types/Page_Bayu Buana - Occupancy Types/header_Occupancy Type Name",
+      "brokenLocator": "//table[@id\u003d\u0027DataTables_Table_2\u0027]/thead/tr/th[3]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Occupancy Type Code\u0027])[1]/following::th[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/master data management/Occupancy_Types/Page_Bayu Buana - Occupancy Types/header_Occupancy Type Name_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/master data management/Occupancy_Types/Page_Bayu Buana - Occupancy Types/Header_Occupancy",
+      "brokenLocator": "//table[@id\u003d\u0027DataTables_Table_2\u0027]/thead/tr/th[4]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Occupancy Type Name\u0027])[1]/following::th[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/master data management/Occupancy_Types/Page_Bayu Buana - Occupancy Types/Header_Occupancy_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/master data management/Occupancy_Types/Page_Bayu Buana - Occupancy Types/Header_Is Default",
+      "brokenLocator": "//table[@id\u003d\u0027DataTables_Table_2\u0027]/thead/tr/th[5]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Occupancy\u0027])[1]/following::th[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/master data management/Occupancy_Types/Page_Bayu Buana - Occupancy Types/Header_Is Default_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/master data management/Occupancy_Types/Page_Bayu Buana - Occupancy Types/Header_Status",
+      "brokenLocator": "//table[@id\u003d\u0027DataTables_Table_2\u0027]/thead/tr/th[6]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Is Default\u0027])[1]/following::th[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/master data management/Occupancy_Types/Page_Bayu Buana - Occupancy Types/Header_Status_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/master data management/Occupancy_Types/Page_Bayu Buana - Occupancy Types/Header_Actions",
+      "brokenLocator": "//table[@id\u003d\u0027DataTables_Table_4\u0027]/thead/tr/th[7]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Status\u0027])[2]/following::th[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/master data management/Occupancy_Types/Page_Bayu Buana - Occupancy Types/Header_Actions_neighbor.png"
+    }
+  ]
 }

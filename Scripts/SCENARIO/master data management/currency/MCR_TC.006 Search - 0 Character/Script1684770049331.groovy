@@ -30,9 +30,11 @@ WebUI.click(findTestObject('master data management/currency/currency_submenu'))
 WebUI.selectOptionByLabel(findTestObject('division/select_pagination'), 'All', false)
 
 TestObject selectorType = new TestObject()
+
 selectorType.addProperty('css', ConditionType.EQUALS, 'td:nth-of-type(2)')
 
 List<WebElement> typeList = WebUI.findWebElements(selectorType, 30)
+
 String size1 = typeList.size()
 
 WebUI.setText(findTestObject('master data management/currency/search_field'), 'usd')
@@ -46,6 +48,7 @@ WebUI.sendKeys(findTestObject('master data management/currency/search_field'), K
 WebUI.delay(2)
 
 List<WebElement> typeList2 = WebUI.findWebElements(selectorType, 30)
+
 String size2 = typeList2.size()
 
 WebUI.verifyMatch(size1, size2, false)

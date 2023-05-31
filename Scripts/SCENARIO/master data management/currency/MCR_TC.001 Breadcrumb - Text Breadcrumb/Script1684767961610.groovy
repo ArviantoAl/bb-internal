@@ -19,17 +19,19 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('login_internal'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/corporate_airline_fare/dashboardBtn'))
+WebUI.click(findTestObject('corporate_airline_fare/dashboardBtn'))
 
-WebUI.click(findTestObject('master data management/attraction categories/master_data_sbmenu'))
+WebUI.click(findTestObject('master data management/Occupancy_Types/Page_Bayu Buana - Occupancy Types/a_Master Data Management'))
 
-WebUI.click(findTestObject('master data management/currency/currency_submenu'))
+WebUI.click(findTestObject('master data management/Occupancy_Types/Page_Bayu Buana - Occupancy Types/a_Occupancy Type'))
 
 WebUI.click(findTestObject('corporate_airline_fare/breadcrumb'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('division/breadcrumb_li1'), 'Master Data Management')
+WebUI.verifyElementText(findTestObject('master data management/Occupancy_Types/Page_Bayu Buana - Occupancy Types/li_Master Data Management'), 
+    'Master Data Management')
 
-WebUI.verifyElementText(findTestObject('division/breadcrumb_li2'), 'Currencies')
+WebUI.verifyElementText(findTestObject('master data management/Occupancy_Types/Page_Bayu Buana - Occupancy Types/li_Occupancy Types'), 
+    'Occupancy Types')
 
 WebUI.takeScreenshot()
 

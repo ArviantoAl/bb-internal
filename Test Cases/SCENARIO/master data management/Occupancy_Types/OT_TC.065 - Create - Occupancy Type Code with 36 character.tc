@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>OT_TC.065 - Create - Occupancy Type Code with 36 character</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>622f9a86-7f51-458a-8916-d4327ae7a8c1</testCaseGuid>
+</TestCaseEntity>

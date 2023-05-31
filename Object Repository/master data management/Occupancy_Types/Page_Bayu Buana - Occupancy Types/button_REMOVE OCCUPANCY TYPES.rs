@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_REMOVE OCCUPANCY TYPES</name>
+   <tag></tag>
+   <elementGuidId>a678882b-8eb5-4616-b027-b9b21a8771bf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[5]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-default.textButtonSave.bdgreen.bg-dark-green.p-2.ml-3</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>9c1be5bf-9350-45aa-889f-2699d47a5915</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>dbaaa5dd-6426-4f6a-93e4-74163af67670</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-default textButtonSave bdgreen bg-dark-green p-2 ml-3</value>
+      <webElementGuid>bbe012bf-185b-4b71-a493-e0c03058fabe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>REMOVE OCCUPANCY TYPES</value>
+      <webElementGuid>66e1eed5-8917-4651-9975-c352e4b36ef4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;content-wrapper&quot;]/div[@class=&quot;container-fluid pb-5&quot;]/section[@class=&quot;content&quot;]/div[@class=&quot;occupancyIcon&quot;]/div[1]/div[@class=&quot;container-fluid pl-0&quot;]/div[@class=&quot;container-fluid mt-2&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xs-12 d-flex flex-row fullwidthColumn gapColumn&quot;]/button[@class=&quot;btn btn-default textButtonSave bdgreen bg-dark-green p-2 ml-3&quot;]</value>
+      <webElementGuid>8c6e0feb-2971-4d5f-a1e8-93d0febe1cc1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[5]</value>
+      <webElementGuid>a105ed48-b573-44fc-b801-5ccf3fa18d33</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/section/div/div/div/div[3]/div/div/button[2]</value>
+      <webElementGuid>e3458679-8dc9-484d-afdd-5125b45c4c2b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Inactive'])[1]/following::button[1]</value>
+      <webElementGuid>193aec02-0464-404e-ae07-d57c8cab5f8d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Active'])[1]/following::button[1]</value>
+      <webElementGuid>f3a1a2ae-e05d-4707-b1ad-db1c406f9313</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Occupancy Type Code'])[1]/preceding::button[1]</value>
+      <webElementGuid>63cb5080-4c1c-41d7-bf67-b3ce6dad3c47</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Occupancy Type Name'])[1]/preceding::button[1]</value>
+      <webElementGuid>f2521474-3a6b-4536-a6e9-f5999a93cad4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='REMOVE']/parent::*</value>
+      <webElementGuid>e1de4611-902f-4787-acb8-74cd3b0e53c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]</value>
+      <webElementGuid>46d57bed-f0e1-4ab3-9e7b-c1271f06ec8a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'REMOVE OCCUPANCY TYPES' or . = 'REMOVE OCCUPANCY TYPES')]</value>
+      <webElementGuid>b04adc28-4db3-48f3-8cf0-b82ad0433b43</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Occupancy Types_fas fa-search</name>
+   <tag></tag>
+   <elementGuidId>be617a01-bf88-4ca2-80a4-2fd1be47baf3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/section/div/div/div/div/div/div/div/span/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.fas.fa-search</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>1334e568-2e75-41e9-8571-4c237ef0fe9c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fas fa-search</value>
+      <webElementGuid>61cdb232-b93e-48a0-9d24-90228281e0b9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;content-wrapper&quot;]/div[@class=&quot;container-fluid pb-5&quot;]/section[@class=&quot;content&quot;]/div[@class=&quot;occupancyIcon&quot;]/div[1]/div[@class=&quot;container-fluid pl-0&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xs-12 col-sm-12 col-md-4 col-lg-3 col-xl-3&quot;]/div[@class=&quot;input-group input-group-with-text&quot;]/div[@class=&quot;input-group-append&quot;]/span[@class=&quot;input-group-text&quot;]/i[@class=&quot;fas fa-search&quot;]</value>
+      <webElementGuid>b196387f-a1cd-45b2-9e4f-8c0f3b7035f6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/section/div/div/div/div/div/div/div/span/i</value>
+      <webElementGuid>a60b402b-79d9-4853-b3b2-5898a6f77e3f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/span/i</value>
+      <webElementGuid>060a965c-c0eb-403d-a6fd-8977f130a4ff</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
