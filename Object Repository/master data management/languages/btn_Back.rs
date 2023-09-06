@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_Back</name>
+   <tag></tag>
+   <elementGuidId>8810bd3f-65d3-441c-96f5-19c267ef609a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'text-button-cancel' and (text() = 'BACK' or . = 'BACK')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-button-cancel</value>
+      <webElementGuid>d093e01f-0ffe-4b72-95ae-b7837430b6c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>BACK</value>
+      <webElementGuid>5ff26672-4987-45bd-b76d-0d1ed7e74189</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

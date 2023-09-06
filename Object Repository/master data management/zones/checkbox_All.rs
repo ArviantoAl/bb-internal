@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>checkbox_All</name>
+   <tag></tag>
+   <elementGuidId>5413407f-399e-42c6-bfa2-0a7accbdaa28</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'checkbox' and @id = 'cb-th' and @class = 'select-checkbox-all ml-2 mr-1']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>checkbox</value>
+      <webElementGuid>6fb80e4c-29b8-4975-940c-52662e7178be</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>cb-th</value>
+      <webElementGuid>15f60040-0dab-48c0-b1fa-8e9cf4656c2f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>select-checkbox-all ml-2 mr-1</value>
+      <webElementGuid>4d1285c2-f523-4d17-bad8-bd921cd056ee</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>breadcrumb_Language</name>
+   <tag></tag>
+   <elementGuidId>4df7455e-c28c-4a6d-bf63-590b079b28a2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(.,'Languages')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'breadcrumb-overflow breadcrumb-item' and (text() = 'Languages' or . = 'Languages') and @href = '/master/languages']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>breadcrumb-overflow breadcrumb-item</value>
+      <webElementGuid>a9b328a4-039d-4f2a-8645-403d2816e081</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Languages</value>
+      <webElementGuid>102fc904-e233-46c5-a849-73f53ab2b481</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/master/languages</value>
+      <webElementGuid>16612fb3-25f3-4e94-96a8-8b686e31b51d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>OT_TC.098 - Edit - Occupancy Type Name with exclude delete</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cc95ac56-4d6b-4770-81d6-4b20de894d55</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>tableHeader_Flag</name>
+   <tag></tag>
+   <elementGuidId>a3d70d7b-4162-409d-aab9-6b3ee302f4cc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-column-index = '3' and (text() = 'Flag' or . = 'Flag')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-column-index</name>
+      <type>Main</type>
+      <value>3</value>
+      <webElementGuid>e096b2eb-78f2-4f3d-938f-49bd1a56c8c3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Flag</value>
+      <webElementGuid>5f86f47e-3924-4d46-a41e-96f717143a2b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

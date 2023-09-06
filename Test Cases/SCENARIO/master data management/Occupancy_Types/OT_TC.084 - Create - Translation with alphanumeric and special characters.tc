@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>OT_TC.084 - Create - Translation with alphanumeric and special characters</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ab27b818-a172-429e-b4a6-b92c231f156b</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>OT_TC.093 - Edit - Occupancy Type Name with 1 character</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cd251f1c-667f-42fa-91b0-e017c4453a05</testCaseGuid>
+</TestCaseEntity>

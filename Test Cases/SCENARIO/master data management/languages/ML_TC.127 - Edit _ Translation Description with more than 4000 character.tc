@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ML_TC.127 - Edit _ Translation Description with more than 4000 character</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6f843e19-dd35-423d-9817-4abaa15295e0</testCaseGuid>
+</TestCaseEntity>

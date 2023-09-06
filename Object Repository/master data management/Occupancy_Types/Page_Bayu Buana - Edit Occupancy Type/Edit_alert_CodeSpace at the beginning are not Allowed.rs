@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Edit_alert_CodeSpace at the beginning are not Allowed</name>
+   <tag></tag>
+   <elementGuidId>9bba82fb-194a-4345-81b2-c2f0f7c871e6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='occupancy_type_code-error']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#occupancy_type_code-error</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>f1b67292-a285-49d8-bcbd-6545bf15b483</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>occupancy_type_code-error</value>
+      <webElementGuid>5aaaa0c3-890b-4445-8b5c-bde53cdbf4d6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>error invalid-feedback</value>
+      <webElementGuid>76b10345-d32c-44a0-87fc-8a9ea9117375</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Space at the beginning are not Allowed</value>
+      <webElementGuid>23e6697f-49cf-42f7-a67e-a11e3bc579b1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;occupancy_type_code-error&quot;)</value>
+      <webElementGuid>d16a6e25-9c9b-4a93-9873-a3b9d7df6f5a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//span[@id='occupancy_type_code-error']</value>
+      <webElementGuid>0272c99d-0f4a-4c88-84a2-4014beb59221</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/section/form/div/div/div/div[3]/div/div/div[2]/div/div[2]/span</value>
+      <webElementGuid>591f66fd-ec00-40b9-bcdd-383308bc492d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Occupancy Type Code'])[1]/following::span[1]</value>
+      <webElementGuid>dc518341-1e50-4fe1-913f-d54b15a5139c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='For Interface Purpose'])[1]/following::span[2]</value>
+      <webElementGuid>e0abf5e2-cd2f-403c-a474-4e6f1369a80e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Space at the beginning are not Allowed']/parent::*</value>
+      <webElementGuid>d91a4c47-972e-416a-a157-595f564b2846</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/span</value>
+      <webElementGuid>2aa9c31d-937e-4bf0-ae6b-d1e7483d3bb8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[@id = 'occupancy_type_code-error' and (text() = 'Space at the beginning are not Allowed' or . = 'Space at the beginning are not Allowed')]</value>
+      <webElementGuid>b73d9051-e2b4-4e5a-96ab-49c8ad0a67c4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

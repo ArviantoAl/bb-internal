@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="master languages" time="50.636" tests="1" failures="1" errors="0">
+   <testsuite name="master languages" tests="1" failures="1" errors="0" time="50.636" skipped="0" timestamp="2023-05-26 17:16:48" hostname="fetty - fetty-code" id="Test Suites/master languages">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\fetty\\git\\bb-internal-katalon-new\\Reports\\20230526_171638\\master languages\\20230526_171638"/>
+         <property name="logFiles" value="C:\\Users\\fetty\\git\\bb-internal-katalon-new\\Reports\\20230526_171638\\master languages\\20230526_171638\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\fetty\\git\\bb-internal-katalon-new\\Reports\\20230526_171638\\master languages\\20230526_171638\\1685096258674.png, C:\\Users\\fetty\\git\\bb-internal-katalon-new\\Reports\\20230526_171638\\master languages\\20230526_171638\\1685096259035.png"/>
+         <property name="hostName" value="fetty - fetty-code"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+         <property name="browser" value="Chrome 113.0.0.0"/>
+         <property name="hostAddress" value="10.11.2.43"/>
+         <property name="sessionId" value="a73d712bd940bce3bb93777184817e34"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/SCENARIO/master data management/Languages/ML_TC.013 - Print Countries Types" time="50.223" classname="Test Cases/SCENARIO/master data management/Languages/ML_TC.013 - Print Countries Types" status="FAILED">
+         <failure type="FAILED" message="Test Cases/SCENARIO/master data management/Languages/ML_TC.013 - Print Countries Types FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to switch to window with index: '2'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword.switchToWindowIndex(SwitchToWindowIndexKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword.execute(SwitchToWindowIndexKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToWindowIndex(WebUiBuiltInKeywords.groovy:1891)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToWindowIndex$4.call(Unknown Source)
+	at ML_TC.013 - Print Countries Types.run(ML_TC.013 - Print Countries Types:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1685096198547.run(TempTestSuite1685096198547.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Cannot find window with index: '2'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword$_switchToWindowIndex_closure1.doCall(SwitchToWindowIndexKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword$_switchToWindowIndex_closure1.call(SwitchToWindowIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-05-26 17:16:49 - [TEST_CASE][FAILED] - Test Cases/SCENARIO/master data management/Languages/ML_TC.013 - Print Countries Types: Test Cases/SCENARIO/master data management/Languages/ML_TC.013 - Print Countries Types FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to switch to window with index: '2'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword.switchToWindowIndex(SwitchToWindowIndexKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword.execute(SwitchToWindowIndexKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToWindowIndex(WebUiBuiltInKeywords.groovy:1891)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToWindowIndex$4.call(Unknown Source)
+	at ML_TC.013 - Print Countries Types.run(ML_TC.013 - Print Countries Types:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1685096198547.run(TempTestSuite1685096198547.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Cannot find window with index: '2'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword$_switchToWindowIndex_closure1.doCall(SwitchToWindowIndexKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword$_switchToWindowIndex_closure1.call(SwitchToWindowIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-05-26 17:16:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/login_internal"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/login_internal' successfully
+
+2023-05-26 17:16:49 - [TEST_CASE][PASSED] - Test Cases/login_internal: Test Cases/login_internal
+
+2023-05-26 17:16:50 - [TEST_STEP][PASSED] - openBrowser(url_login): Browser is opened with url: 'https://bbstg.monstercode.net/auth/login'
+
+2023-05-26 17:16:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-26 17:16:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-26 17:16:57 - [MESSAGE][PASSED] - Browser is opened with url: 'https://bbstg.monstercode.net/auth/login'
+
+2023-05-26 17:16:57 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-05-26 17:16:58 - [MESSAGE][PASSED] - Current window maximized
+
+2023-05-26 17:16:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Log_In/input_Email_username"), user_corporate): Text 'coba.dilain@gmail.com' is set on object 'Object Repository/Log_In/input_Email_username'
+
+2023-05-26 17:16:59 - [MESSAGE][PASSED] - Text 'coba.dilain@gmail.com' is set on object 'Object Repository/Log_In/input_Email_username'
+
+2023-05-26 17:16:59 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Log_In/input_Password"), pass_corporate_encrypted): Text ****** has been set on object 'Object Repository/Log_In/input_Password'
+
+2023-05-26 17:16:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Log_In/input_Password'
+
+2023-05-26 17:16:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Log_In/btn_sign_in")): Object: 'Object Repository/Log_In/btn_sign_in' is clicked on
+
+2023-05-26 17:17:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Log_In/btn_sign_in' is clicked on
+
+2023-05-26 17:17:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/login_internal' successfully
+
+2023-05-26 17:17:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/master_employee/dashboardBtn")): Object: 'Object Repository/master_employee/dashboardBtn' is clicked on
+
+2023-05-26 17:17:03 - [MESSAGE][PASSED] - Object: 'Object Repository/master_employee/dashboardBtn' is clicked on
+
+2023-05-26 17:17:03 - [TEST_STEP][PASSED] - click(findTestObject("master_employee/corporateManagementBtn")): Object: 'Object Repository/master_employee/corporateManagementBtn' is clicked on
+
+2023-05-26 17:17:03 - [MESSAGE][PASSED] - Object: 'Object Repository/master_employee/corporateManagementBtn' is clicked on
+
+2023-05-26 17:17:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Languages/masterLanguagesSubMenu")): Object: 'Object Repository/Master Languages/masterLanguagesSubMenu' is clicked on
+
+2023-05-26 17:17:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Languages/masterLanguagesSubMenu' is clicked on
+
+2023-05-26 17:17:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Languages/input_Search")): Object: 'Object Repository/Master Languages/input_Search' is clicked on
+
+2023-05-26 17:17:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Languages/input_Search' is clicked on
+
+2023-05-26 17:17:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master Languages/btn_Print")): Object: 'Object Repository/Master Languages/btn_Print' is clicked on
+
+2023-05-26 17:17:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Master Languages/btn_Print' is clicked on
+
+2023-05-26 17:17:06 - [TEST_STEP][FAILED] - switchToWindowIndex(2): Unable to switch to window with index: '2' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to switch to window with index: '2'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword.switchToWindowIndex(SwitchToWindowIndexKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword.execute(SwitchToWindowIndexKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToWindowIndex(WebUiBuiltInKeywords.groovy:1891)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToWindowIndex$4.call(Unknown Source)
+	at ML_TC.013 - Print Countries Types.run(ML_TC.013 - Print Countries Types:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1685096198547.run(TempTestSuite1685096198547.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Cannot find window with index: '2'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword$_switchToWindowIndex_closure1.doCall(SwitchToWindowIndexKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword$_switchToWindowIndex_closure1.call(SwitchToWindowIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2023-05-26 17:17:39 - [MESSAGE][FAILED] - Cannot find window with index: '2' (Root cause: com.kms.katalon.core.exception.StepFailedException: Cannot find window with index: '2'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword$_switchToWindowIndex_closure1.doCall(SwitchToWindowIndexKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword$_switchToWindowIndex_closure1.call(SwitchToWindowIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword.switchToWindowIndex(SwitchToWindowIndexKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword.execute(SwitchToWindowIndexKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToWindowIndex(WebUiBuiltInKeywords.groovy:1891)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToWindowIndex$4.call(Unknown Source)
+	at ML_TC.013 - Print Countries Types.run(ML_TC.013 - Print Countries Types:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1685096198547.run(TempTestSuite1685096198547.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\fetty\\git\\bb-internal-katalon-new\\Reports\\20230526_171638\\master languages\\20230526_171638\\1685096258674.png]]
+
+2023-05-26 17:17:39 - [MESSAGE][FAILED] - Unable to switch to window with index: '2' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to switch to window with index: '2'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword.switchToWindowIndex(SwitchToWindowIndexKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword.execute(SwitchToWindowIndexKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToWindowIndex(WebUiBuiltInKeywords.groovy:1891)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToWindowIndex$4.call(Unknown Source)
+	at ML_TC.013 - Print Countries Types.run(ML_TC.013 - Print Countries Types:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1685096198547.run(TempTestSuite1685096198547.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Cannot find window with index: '2'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword$_switchToWindowIndex_closure1.doCall(SwitchToWindowIndexKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword$_switchToWindowIndex_closure1.call(SwitchToWindowIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|C:\\Users\\fetty\\git\\bb-internal-katalon-new\\Reports\\20230526_171638\\master languages\\20230526_171638\\1685096259035.png]]]]></system-out>
+         <system-err><![CDATA[2023-05-26 17:16:49 - [TEST_CASE][FAILED] - Test Cases/SCENARIO/master data management/Languages/ML_TC.013 - Print Countries Types: Test Cases/SCENARIO/master data management/Languages/ML_TC.013 - Print Countries Types FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to switch to window with index: '2'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword.switchToWindowIndex(SwitchToWindowIndexKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword.execute(SwitchToWindowIndexKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToWindowIndex(WebUiBuiltInKeywords.groovy:1891)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToWindowIndex$4.call(Unknown Source)
+	at ML_TC.013 - Print Countries Types.run(ML_TC.013 - Print Countries Types:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1685096198547.run(TempTestSuite1685096198547.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Cannot find window with index: '2'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword$_switchToWindowIndex_closure1.doCall(SwitchToWindowIndexKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword$_switchToWindowIndex_closure1.call(SwitchToWindowIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-05-26 17:16:48 - [TEST_SUITE][FAILED] - master languages: Test Cases/SCENARIO/master data management/Languages/ML_TC.013 - Print Countries Types FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to switch to window with index: '2'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword.switchToWindowIndex(SwitchToWindowIndexKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword.execute(SwitchToWindowIndexKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToWindowIndex(WebUiBuiltInKeywords.groovy:1891)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToWindowIndex$4.call(Unknown Source)
+	at ML_TC.013 - Print Countries Types.run(ML_TC.013 - Print Countries Types:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1685096198547.run(TempTestSuite1685096198547.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Cannot find window with index: '2'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword$_switchToWindowIndex_closure1.doCall(SwitchToWindowIndexKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword$_switchToWindowIndex_closure1.call(SwitchToWindowIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-05-26 17:16:48 - [TEST_SUITE][FAILED] - master languages: Test Cases/SCENARIO/master data management/Languages/ML_TC.013 - Print Countries Types FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to switch to window with index: '2'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword.switchToWindowIndex(SwitchToWindowIndexKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword.execute(SwitchToWindowIndexKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToWindowIndex(WebUiBuiltInKeywords.groovy:1891)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToWindowIndex$4.call(Unknown Source)
+	at ML_TC.013 - Print Countries Types.run(ML_TC.013 - Print Countries Types:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1685096198547.run(TempTestSuite1685096198547.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Cannot find window with index: '2'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword$_switchToWindowIndex_closure1.doCall(SwitchToWindowIndexKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowIndexKeyword$_switchToWindowIndex_closure1.call(SwitchToWindowIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

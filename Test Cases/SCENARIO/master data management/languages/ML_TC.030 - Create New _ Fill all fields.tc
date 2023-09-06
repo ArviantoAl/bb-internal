@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ML_TC.030 - Create New _ Fill all fields</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5ae8cb37-1734-4b88-b22a-07dabdcf7f46</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8c66e8e3-cf8f-4274-9c01-df9a77a3a748</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8c66e8e3-cf8f-4274-9c01-df9a77a3a748</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MZ_TC.028 - Create New_Input dengan Zone Name with exclude delete</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6f93fb64-4c33-4d7c-8035-41eab58de5ad</testCaseGuid>
+</TestCaseEntity>

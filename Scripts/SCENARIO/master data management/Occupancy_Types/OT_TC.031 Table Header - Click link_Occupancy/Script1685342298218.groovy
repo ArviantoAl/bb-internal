@@ -20,7 +20,7 @@ import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.testobject.ConditionType as ConditionType
 import java.util.*
 
-WebUI.callTestCase(findTestCase('Login-occupancy_page'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('SCENARIO/master data management/Occupancy_Types/Login-occupancy_page'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('master data management/Occupancy_Types/Page_Bayu Buana - Occupancy Types/Header_Status'))
 

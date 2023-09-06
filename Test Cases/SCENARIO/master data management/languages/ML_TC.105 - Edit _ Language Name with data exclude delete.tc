@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ML_TC.105 - Edit _ Language Name with data exclude delete</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>037c54ef-ac27-4450-b249-cbb4074632cd</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>OT_TC.079 - Create - Translation with 256 characters</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>62e0c92a-fe7a-49e3-8589-df159faa5c67</testCaseGuid>
+</TestCaseEntity>

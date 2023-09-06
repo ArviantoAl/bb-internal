@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MZ_TC.025 - Create New_Input Lebih dari 256 Karakter</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>825fcae2-89f5-4107-b5d7-2554eb0b464a</testCaseGuid>
+</TestCaseEntity>

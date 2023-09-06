@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MAC_TC.063 Create - Description with empty Data</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cc33ccd0-a3a4-456d-aeee-70551b1f0213</testCaseGuid>
+</TestCaseEntity>

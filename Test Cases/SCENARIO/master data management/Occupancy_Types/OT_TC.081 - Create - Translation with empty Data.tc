@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>OT_TC.081 - Create - Translation with empty Data</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>acb7e25b-b178-4575-aa24-4385ffa5cf1f</testCaseGuid>
+</TestCaseEntity>

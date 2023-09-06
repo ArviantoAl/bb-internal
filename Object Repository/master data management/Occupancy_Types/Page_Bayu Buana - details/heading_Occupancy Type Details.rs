@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>heading_Occupancy Type Details</name>
+   <tag></tag>
+   <elementGuidId>fe504891-7456-4578-9566-8c8280508bf2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div/div/div/div/div/div[2]/h1</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h1.main-header-title</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>d728721c-34ce-42fd-bf05-b8dccb14fdd7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>main-header-title</value>
+      <webElementGuid>62f6fc36-7819-4af6-96b8-20e68ddb81a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Occupancy Type Details</value>
+      <webElementGuid>d609deb5-5b4a-4b61-9175-dd0309bebfbd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;content-wrapper&quot;]/div[@class=&quot;container-fluid pb-5&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;content-header&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xl&quot;]/div[@class=&quot;main-header-wrapper&quot;]/h1[@class=&quot;main-header-title&quot;]</value>
+      <webElementGuid>236a9995-996b-418d-a319-77f035bc9883</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div/div/div/div/div/div[2]/h1</value>
+      <webElementGuid>1d502096-ca86-4e0c-9a6f-cc399f1daaf6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View Occupancy Type'])[1]/following::h1[1]</value>
+      <webElementGuid>f03a3d02-61e2-4a7a-9cd9-a0a6c911425c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Occupancy Type Name'])[1]/preceding::h1[1]</value>
+      <webElementGuid>75cb4ebd-a473-4784-b909-76a9e4d5665f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Is Default'])[1]/preceding::h1[1]</value>
+      <webElementGuid>04c0a370-596b-47fc-9b75-1b275599fd1e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Occupancy Type Details']/parent::*</value>
+      <webElementGuid>21f06c45-eec5-4efd-91f3-7832583754cb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1</value>
+      <webElementGuid>d1cdf268-5df5-4564-a716-8ab4ac63273f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = 'Occupancy Type Details' or . = 'Occupancy Type Details')]</value>
+      <webElementGuid>7361f525-1b5b-403d-95da-2bcd2dd996f0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

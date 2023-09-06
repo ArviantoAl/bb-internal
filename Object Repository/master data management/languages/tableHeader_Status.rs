@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>tableHeader_Status</name>
+   <tag></tag>
+   <elementGuidId>c7102fff-0d11-448b-8c38-b6e537175486</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@aria-controls = 'DataTables_Table_0' and @data-column-index = '4']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-controls</name>
+      <type>Main</type>
+      <value>DataTables_Table_0</value>
+      <webElementGuid>713f311f-7152-46a5-821d-a21f74d25cca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-column-index</name>
+      <type>Main</type>
+      <value>4</value>
+      <webElementGuid>6c4488f4-2e77-452d-8fda-cd6db0c1be57</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.testobject.ConditionType as ConditionType
 
-WebUI.callTestCase(findTestCase('Login-occupancy_page'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('SCENARIO/master data management/Occupancy_Types/Login-occupancy_page'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.selectOptionByLabel(findTestObject('division/select_pagination'), 'All', false)
 

@@ -21,7 +21,7 @@ String chars = 'abcdefghijklmnopqrstuvwxyz'
 
 String keyword = randomString(chars, 256)
 
-WebUI.callTestCase(findTestCase('Login-occupancy_page'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('SCENARIO/master data management/Occupancy_Types/Login-occupancy_page'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('master data management/Occupancy_Types/Page_Bayu Buana - Occupancy Types/field_search'), 
     keyword)

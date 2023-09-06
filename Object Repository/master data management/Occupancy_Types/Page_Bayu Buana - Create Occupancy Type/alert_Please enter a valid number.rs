@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>alert_Please enter a valid number</name>
+   <tag></tag>
+   <elementGuidId>ee9f7839-a833-4af4-8ccd-3ec33d4b1e1a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='occupancy-error']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#occupancy-error</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>a8b42221-cb61-4f13-8b36-8fbdbd86c13a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>occupancy-error</value>
+      <webElementGuid>5e917860-ffef-48e7-855e-589814bed434</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>error invalid-feedback</value>
+      <webElementGuid>76448592-5562-46c2-b24c-4ec3c756da4d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Please enter a valid number.</value>
+      <webElementGuid>b5d5efea-24a5-47c4-a03b-d8327f5dee3c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;occupancy-error&quot;)</value>
+      <webElementGuid>ac9fb827-33f9-4c1b-a115-49c438935264</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//span[@id='occupancy-error']</value>
+      <webElementGuid>61f991e5-27dc-4030-9e6a-51fa3c7dabf5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/section/form/div/div/div/div/div/div[3]/div[2]/span</value>
+      <webElementGuid>1f770072-beef-4e5b-a260-f652d98ec4ad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Occupancy'])[1]/following::span[1]</value>
+      <webElementGuid>6fc88ab3-a099-4992-9a8d-dd19161bec2b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/following::span[2]</value>
+      <webElementGuid>a09002d1-0090-43bd-901b-3e2ba91521b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='For Interface Purpose'])[1]/preceding::span[1]</value>
+      <webElementGuid>470b708f-967c-4bd8-bd56-f23a7c39654d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Occupancy Type Code'])[1]/preceding::span[1]</value>
+      <webElementGuid>7a0ccbcf-fec2-416d-9ea3-1ab9dcbda05f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Please enter a valid number.']/parent::*</value>
+      <webElementGuid>1b77c732-1a1f-46a8-8745-fd7be63028fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/span</value>
+      <webElementGuid>30176e73-f6f3-44cf-9e7c-7efca686b7cd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[@id = 'occupancy-error' and (text() = 'Please enter a valid number.' or . = 'Please enter a valid number.')]</value>
+      <webElementGuid>f8319346-ba1b-46d3-9602-5cf5f86785a2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

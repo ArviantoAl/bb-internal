@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>field_translation</name>
+   <tag></tag>
+   <elementGuidId>e9d8d2bf-f18c-40ee-b046-c7a658795714</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'form-control' and @wrapperalign = 'start' and @id = 'trans-08-occupancy_type_name' and @type = 'text' and @name = 'occupancy_type_name_08']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+      <webElementGuid>015eb222-a7e6-4eb2-881a-e0d5234cde23</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>wrapperalign</name>
+      <type>Main</type>
+      <value>start</value>
+      <webElementGuid>2d231af3-6f58-49de-8eb6-112a55862769</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>trans-08-occupancy_type_name</value>
+      <webElementGuid>337a235b-9025-45b1-9537-2ba07782b739</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>0a4ce4b1-032d-4f79-aa2b-8b6394cc4465</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>occupancy_type_name_08</value>
+      <webElementGuid>05cf1744-6d50-4bf0-ad1c-8b2dc9b1981b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

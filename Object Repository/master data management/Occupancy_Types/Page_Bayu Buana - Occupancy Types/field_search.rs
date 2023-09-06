@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@class='form-control']</value>
+         <value>//input[@value='']</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>0516bbb3-0805-438e-9e5d-e3b038f03157</webElementGuid>
+      <webElementGuid>e50711c6-e2d3-47f3-ac20-48f45a4c12d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>3cddd84f-f90e-405e-9f41-19b50a7a713a</webElementGuid>
+      <webElementGuid>a3df5376-6279-4782-acaf-d32acbaf684a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Search...</value>
-      <webElementGuid>32ca2d24-1844-4654-b15f-077ade9d81e3</webElementGuid>
+      <webElementGuid>050d083c-05b0-4a5e-a82f-9fd9849536ea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>256</value>
-      <webElementGuid>350a29c8-a2f6-418c-9e1e-3325a488e55e</webElementGuid>
+      <webElementGuid>3bddc542-c44e-4396-b3d8-81aeda6699dc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,15 +54,31 @@
       <name>minlength</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>6d99b251-4a52-467b-9f25-38f20817dbb2</webElementGuid>
+      <webElementGuid>d197c18b-6350-477e-b2ad-e7281e2bec09</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;content-wrapper&quot;]/div[@class=&quot;container-fluid pb-5&quot;]/section[@class=&quot;content&quot;]/div[@class=&quot;occupancyIcon&quot;]/div[1]/div[@class=&quot;container-fluid pl-0&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xs-12 col-sm-12 col-md-4 col-lg-3 col-xl-3&quot;]/div[@class=&quot;input-group input-group-with-text&quot;]/input[@class=&quot;form-control&quot;]</value>
-      <webElementGuid>bea0e94e-956e-47df-b46c-9ae302bfebd4</webElementGuid>
+      <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;content-wrapper&quot;]/div[@class=&quot;container-fluid pb-5&quot;]/section[@class=&quot;content&quot;]/div[@class=&quot;occupancyIcon ocupTypeTb&quot;]/div[1]/div[@class=&quot;container-fluid pl-0&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xs-12 col-sm-12 col-md-4 col-lg-3 col-xl-3&quot;]/div[@class=&quot;input-group input-group-with-text&quot;]/input[@class=&quot;form-control&quot;]</value>
+      <webElementGuid>19e6ce41-d16d-47eb-8477-11950d01d96a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>checkbox</value>
+      <webElementGuid>0fdc0581-0134-43e4-aa28-b46c321b7dfd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-id</name>
+      <type>Main</type>
+      <value>c68e1259-d12a-454a-a99f-a67d0abc1feb</value>
+      <webElementGuid>b4826dba-33e3-486b-ab92-03fb460176f9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +86,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@value='']</value>
-      <webElementGuid>b5bbbe6f-c195-4304-96e9-4f78385a9fa2</webElementGuid>
+      <webElementGuid>66765c7c-75ee-4285-abd6-7abb6528290b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +94,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div/div/section/div/div/div/div/div/div/input</value>
-      <webElementGuid>efd1b5d5-ad04-404a-a44f-22d94d331792</webElementGuid>
+      <webElementGuid>35ffb465-e461-417e-9d52-920f9081fa28</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>384dcc35-e64d-472e-b311-8ad676de5827</webElementGuid>
+      <webElementGuid>df0cc395-e86f-44c5-b10e-3d49a29fede8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +110,38 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@placeholder = 'Search...']</value>
-      <webElementGuid>95acecb3-ae9b-4637-93ff-8393e25e5334</webElementGuid>
+      <webElementGuid>2f4ee459-5869-4de6-9c1e-3537cfea905c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@type='checkbox'])[2]</value>
+      <webElementGuid>c6da64a6-fae0-45a2-a333-cdd82bc949ac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tr[@id='table-0']/td/input</value>
+      <webElementGuid>d1eebe31-5ccb-4140-b1f6-20e1a9583a90</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td/input</value>
+      <webElementGuid>15d4796e-65b6-4168-89a4-f2fc6c0aabb9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'checkbox']</value>
+      <webElementGuid>dcf19dcd-0c5f-4a8e-a6ac-6c228f4e40ce</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

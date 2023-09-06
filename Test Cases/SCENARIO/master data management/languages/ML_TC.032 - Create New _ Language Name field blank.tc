@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ML_TC.032 - Create New _ Language Name field blank</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>59003474-db3a-4d3e-96f6-b6be981a55be</testCaseGuid>
+</TestCaseEntity>

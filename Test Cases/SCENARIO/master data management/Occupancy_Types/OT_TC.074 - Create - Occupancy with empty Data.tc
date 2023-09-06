@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>OT_TC.074 - Create - Occupancy with empty Data</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>99463907-5762-43a5-b06c-73f432c381f0</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Edit_alert_Occupancy Type Code is required</name>
+   <tag></tag>
+   <elementGuidId>fc6b20ad-d2d8-4c86-afaa-453de40b963b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='occupancy_type_code-error']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#occupancy_type_code-error</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>aa92c39a-4978-4e0e-a3ae-96b40efa7b93</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>occupancy_type_code-error</value>
+      <webElementGuid>37548e28-6575-438f-8791-6bbe3ea483bd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>error invalid-feedback</value>
+      <webElementGuid>80f5e2ce-02ad-4d21-ab0c-c2b20fbf0bad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Occupancy Type Code is required.</value>
+      <webElementGuid>9c254250-60d1-4810-b056-3b0e38c59824</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;occupancy_type_code-error&quot;)</value>
+      <webElementGuid>c967ef9c-fda1-4cd3-9337-5c1d52b9c961</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//span[@id='occupancy_type_code-error']</value>
+      <webElementGuid>25abbc2e-691b-4117-9b12-b5412143ced1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/section/form/div/div/div/div[3]/div/div/div[2]/div/div[2]/span</value>
+      <webElementGuid>d26e2377-781e-4f4c-ab29-4b9e5f1cb812</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Occupancy Type Code'])[1]/following::span[1]</value>
+      <webElementGuid>8efc5221-7f1a-4b06-8a5b-6ea08f5f7a41</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='For Interface Purpose'])[1]/following::span[2]</value>
+      <webElementGuid>a6908db3-8590-4044-a4b7-bd2d2fa1f276</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Occupancy Type Code is required.']/parent::*</value>
+      <webElementGuid>0f8f1deb-2d97-40f4-87ae-323f0acebad0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/span</value>
+      <webElementGuid>4eed330b-fce8-4120-8249-889d4a562508</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[@id = 'occupancy_type_code-error' and (text() = 'Occupancy Type Code is required.' or . = 'Occupancy Type Code is required.')]</value>
+      <webElementGuid>c16ef20a-8fa0-46fe-83c6-203d6cbfdf9c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

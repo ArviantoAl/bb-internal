@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>OT_TC.142 - Edit - Occupancy value more than 9999</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7354202d-b77e-479a-8f0d-b12a1ea2624e</testCaseGuid>
+</TestCaseEntity>

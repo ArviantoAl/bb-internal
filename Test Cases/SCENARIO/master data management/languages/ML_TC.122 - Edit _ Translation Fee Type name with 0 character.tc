@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ML_TC.122 - Edit _ Translation Fee Type name with 0 character</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>adeaf91e-0f56-4019-be4e-38a2aa3d8b19</testCaseGuid>
+</TestCaseEntity>

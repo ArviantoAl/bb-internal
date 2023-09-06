@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MAC_TC.066 Create - Description with alphanumeric and special characters</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1a21ad24-aac7-47af-8be9-f93e1fa2e22a</testCaseGuid>
+</TestCaseEntity>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[6]</value>
+         <value>(//button[@type='button'])[8]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>1af1e9a1-0ea1-4d2c-8346-b1b0ad19a307</webElementGuid>
+      <webElementGuid>b02862cf-f601-466b-865e-5f91def95ad7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>8f8b5ee2-0a13-4844-96fa-f27bcf31f2ea</webElementGuid>
+      <webElementGuid>9c399ae3-c071-45eb-a8db-ca7189d33c6d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-danger</value>
-      <webElementGuid>42d6fdda-6788-476c-a748-6e18211a8162</webElementGuid>
+      <webElementGuid>14d51954-de87-4928-b986-10bc3e9f2bda</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,18 +46,66 @@
       <name>text</name>
       <type>Main</type>
       <value>Delete</value>
-      <webElementGuid>c07bb6ee-49d7-4438-95fe-7d4883cba6c3</webElementGuid>
+      <webElementGuid>bfdc142d-57dd-4498-9457-e57d248b9f52</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;sidebar-mini layout-fixed control-sidebar-slide-open modal-open&quot;]/div[@class=&quot;fade modal show&quot;]/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-footer&quot;]/button[@class=&quot;btn btn-danger&quot;]</value>
-      <webElementGuid>5e2cdb30-c801-48f8-a4db-ee08b9105c27</webElementGuid>
+      <value>/html[1]/body[@class=&quot;sidebar-mini layout-fixed control-sidebar-slide-open modal-open&quot;]/div[@class=&quot;fade modal show&quot;]/div[@class=&quot;modal-dialog modal-dialog-centered&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;bb-modal-wrap modal-body&quot;]/div[3]/button[@class=&quot;btn btn-danger&quot;]</value>
+      <webElementGuid>7642656c-978b-47b1-87ba-6a4eacd4cb17</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[8]</value>
+      <webElementGuid>8baf72e8-d2ac-4a04-87f3-9cb14cae2066</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete Occupancy Type'])[1]/following::button[1]</value>
+      <webElementGuid>4e4622de-7b04-4430-b374-5c3795160517</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::button[1]</value>
+      <webElementGuid>d5f0bd72-99e9-4238-94fe-c9a1fcf38ab6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::button[1]</value>
+      <webElementGuid>547622b1-067f-4d1b-8820-c44ca3dac341</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/div/div[3]/button</value>
+      <webElementGuid>8c48a3c3-52ca-436c-810c-9b8e575aeb3e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Delete' or . = 'Delete')]</value>
+      <webElementGuid>47f734fc-229f-4a93-93dd-b6692cc63c1b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
@@ -75,33 +123,9 @@
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete Occupancy Type'])[1]/following::button[1]</value>
-      <webElementGuid>48ce5b62-4685-4451-9916-4a50c2c1085a</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::button[1]</value>
-      <webElementGuid>10cd21f6-68ba-482b-8d65-be4f8f0561c3</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/div/div[3]/button</value>
       <webElementGuid>b37074ca-a32a-4f13-a957-369ed6849eaf</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//button[@type = 'button' and (text() = 'Delete' or . = 'Delete')]</value>
-      <webElementGuid>ab1d9ad0-546e-4324-a8d2-54343081970b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

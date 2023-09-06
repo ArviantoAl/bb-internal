@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>breadcrumb_Edit Occupancy Type</name>
+   <tag></tag>
+   <elementGuidId>73a8555e-3ee8-49fc-a7f8-8e4e8d9ee74f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div/div/div/div/div/div/ol</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>ol.breadcrumb</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>ol</value>
+      <webElementGuid>2ae9f6a7-6f3e-4067-b635-4e4660e5fe63</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>breadcrumb</value>
+      <webElementGuid>f0c4849d-a49d-414a-a288-7991c3a4590a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Master Data Management Occupancy TypesEdit Occupancy Type</value>
+      <webElementGuid>e716c6a5-c8bc-4891-ac43-418599d911e1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;content-wrapper&quot;]/div[@class=&quot;container-fluid pb-5&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;content-header&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xl&quot;]/div[@class=&quot;mb-2&quot;]/ol[@class=&quot;breadcrumb&quot;]</value>
+      <webElementGuid>cc2c6481-8d33-4ada-b234-c3779f05023e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div/div/div/div/div/div/ol</value>
+      <webElementGuid>93287945-fccd-43b2-9409-252380cdff2f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign Out'])[1]/following::ol[1]</value>
+      <webElementGuid>e1b108ff-22be-4193-9222-2bf964b5dec1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Change Password'])[1]/following::ol[1]</value>
+      <webElementGuid>c7dde229-e976-4f7b-abcd-c503c22f012f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ol</value>
+      <webElementGuid>e9704506-f7f3-4771-b28c-fbc78e4b9cee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//ol[(text() = 'Master Data Management Occupancy TypesEdit Occupancy Type' or . = 'Master Data Management Occupancy TypesEdit Occupancy Type')]</value>
+      <webElementGuid>59fe604e-e080-49fa-8cc2-de653124baa3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
